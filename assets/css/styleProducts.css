@@ -53,13 +53,10 @@ body {
 }
 .product-item img{
   cursor: pointer;
-}
-
-
-.product-item img {
-  max-width: 100%;
-  height: auto;
-  max-height: 100%;
+  width: 150px;
+  height: 150px;
+  margin-top: auto;
+  margin-right: 10px;
 }
 
 .product-item div {
@@ -214,20 +211,24 @@ img {
   padding: 2rem 1rem;
   flex: 1;
 }
-
+.product-info{
+  padding: 32px  16px;
+  flex: 1;
+}
 .product-title {
-  font-size: 2rem;
+  font-size: 32px;
   text-transform: capitalize;
   font-weight: 700;
   color: #12263a;
   margin: 1rem 0;
+  padding-bottom: 16px;
 }
 
 
 .product-detail h2 {
   text-transform: capitalize;
   color: #12263a;
-  padding-bottom: 0.6rem;
+  padding-bottom: 8px;
 }
 
 .product-detail p {

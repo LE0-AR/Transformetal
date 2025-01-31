@@ -83,15 +83,15 @@
               <li>
                 <a href="#" class="main-category">Exhibición y Almacenes <i class="fa-sharp fa-solid fa-arrow-right arrow-icon"></i></a>
                 <ul class="nav-submenu Almacenes">
-                  <li><a href="#">Góndolas </a></li>
-                  <li><a href="#">Estanterías </a></li>
-                  <li><a href="#">Racks Industrial</a></li>
+                  <li><a href="productos.php#Gondolas">Góndolas </a></li>
+                  <li><a href="productos.php#Estanteria">Estanterías </a></li>
+                  <li><a href="productos.php#RackIndustrial">Racks Industrial</a></li>
                 </ul>
               </li>
               <li>
                 <a href="#" class="main-category">Arquitectónicos y Panales Decorativos <i class="fa-sharp fa-solid fa-arrow-right arrow-icon"></i></a>
                 <ul class="nav-submenu paneles">
-                  <li><a href="#">Paneles decorativos</a></li>
+                  <li><a href="productos.php#Arquitectonicos">Paneles decorativos</a></li>
                   <li><a href="#"></a></li>
                   <li><a href="#"></a></li>
                 </ul>
@@ -99,16 +99,16 @@
               <li>
                 <a href="#" class="main-category">Mobiliario Urbano <i class="fa-sharp fa-solid fa-arrow-right arrow-icon"></i></a>
                 <ul class="nav-submenu Mobiliario">
-                  <li><a href="#">Basureros</a></li>
-                  <li><a href="#">Racks</a></li>
-                  <li><a href="#">Bancas</a></li>
+                  <li><a href="productos.php#Mobiliario">Basureros</a></li>
+                  <li><a href="#"></a></li>
+                  <li><a href="#"></a></li>
                 </ul>
               </li>
               <li>
                 <a href="#" class="main-category">Torres <i class="fa-sharp fa-solid fa-arrow-right arrow-icon"></i></a>
                 <ul class="nav-submenu TorresIrios">
                   <li><a href="productos.php#section25">Torres Arriostradas y Accesorios</a></li>
-                  <li><a href="#">Sistemas de puestas a tierra</a></li>
+                  <li><a href="productos.php#section14">Sistemas de puestas a tierra</a></li>
                   <li><a href="#">Balizas</a></li>
                   <li><a href="#">Interconexión a tierra </a></li>
                   <li><a href="#">Soportes y Herrajes</a></li>
@@ -168,8 +168,6 @@
     </div>
     <!--menu fin -->
   </header>
-  <!--Header FIN-->
-
 
   <div class="productos-main">
     <!--Inicio de secction Telco-->
@@ -212,7 +210,7 @@
                 <!--litado de productos-->
                 <!--NEma1-->
                 <div class="product-item" data-search="caja nema  outdoor pared">
-                  <img src="assets/img/product/gabinete/nema1-1.png" alt="Gabinete Outdoor" style="max-width: 200px; max-height: 200px">
+                  <img src="assets/img/product/gabinete/nema1-1.png" alt="Gabinete Outdoor">
                   <div>
                     <h3 style="font-size: 15px">CAJA NEMA OUTDOOR DE PARED-0.76m</h3>
                     <p>GBO-PD-VV-0.76-21-01-RM</p>
@@ -222,7 +220,7 @@
 
                 <!--Nema2-->
                 <div class="product-item" data-search="caja outdoor con bandejas poste">
-                  <img src="assets/img/product/gabinete/nema2-1.png" alt="Antena Yagi" style="width: 200px; height: 200px" class="product-image" />
+                  <img src="assets/img/product/gabinete/nema2-1.png" alt="Antena Yagi" class="product-image" />
                   <div>
                     <a class="product-title">
                       <h3 style="font-size: 15px">CAJA OUTDOOR CON BANDEJAS MONTAJE EN POSTE 22/40/50</h3>
@@ -234,7 +232,7 @@
 
                 <!--Nema3-->
                 <div class="product-item">
-                  <img src="assets/img/product/gabinete/nema3-1.png" alt="nema3 Con parrillas" style="width: 200px; height: 200px" class="product-image" />
+                  <img src="assets/img/product/gabinete/nema3-1.png" alt="nema3 Con parrillas" class="product-image" />
                   <div>
                     <a class="product-title">
                       <h3 style="font-size: 15px">CAJA OUTDOOR CON PARRILLAS, MONTAJE EN POSTE 22/40/50 cms</h3>
@@ -332,8 +330,7 @@
                   <center>
                     <img
                       src="assets/img/product/Racks/Racks-1.jfif"
-                      alt="Antena Yagi"
-                      style="width: 250px; max-height: 190px" />
+                      alt="Antena Yagi" />
                   </center>
 
                   <div>
@@ -355,8 +352,7 @@
                   <center>
                     <img
                       src="assets/img/product/Racks/Imagen1.png"
-                      alt="Antena Yagi"
-                      style="width: 150px; max-height: 190px" />
+                      alt="Antena Yagi" />
                   </center>
                   <div>
                     <a onclick="showDetails('product1-details') ">
@@ -378,8 +374,7 @@
                   <center>
                     <img
                       src="assets/img/product/Racks/TIRK0032.png"
-                      alt="Antena Yagi"
-                      style="width: 200px; max-height: 190px" />
+                      alt="Antena Yagi" />
                   </center>
 
                   <div>
@@ -481,7 +476,7 @@
                 </div>
                 <!--Nema2-->
                 <div class="product-item">
-                  <img src="assets/img/product/gabinete/nema2-1.png" alt="Antena Yagi" style="width: 200px; height: 200px" class="product-image" />
+                  <img src="assets/img/product/gabinete/nema2-1.png" alt="Antena Yagi" class="product-image" />
                   <div>
                     <a class="product-title">
                       <h3 style="font-size: 15px">CAJA OUTDOOR CON BANDEJAS MONTAJE EN POSTE 22/40/50</h3>
@@ -493,7 +488,7 @@
 
                 <!--Nema3-->
                 <div class="product-item">
-                  <img src="assets/img/product/gabinete/nema3-1.png" alt="nema3 Con parrillas" style="width: 200px; height: 200px" class="product-image" />
+                  <img src="assets/img/product/gabinete/nema3-1.png" alt="nema3 Con parrillas" class="product-image" />
                   <div>
                     <a class="product-title">
                       <h3 style="font-size: 15px">CAJA OUTDOOR CON PARRILLAS, MONTAJE EN POSTE 22/40/50 cms</h3>
@@ -841,8 +836,7 @@
                   <center>
                     <img
                       src="assets/img/product/Riel/RIEL BEIGE 0.125plg -10.PNG"
-                      alt="Antena Yagi"
-                      style="width: 250px; max-height: 190px" />
+                      alt="Antena Yagi" />
                   </center>
 
                   <div>
@@ -909,8 +903,7 @@
                   <center>
                     <img
                       src="assets/img/product/Riel/RIEL BEIGE 0.125plg -10.PNG"
-                      alt="Antena Yagi"
-                      style="width: 250px; max-height: 190px" />
+                      alt="Antena Yagi" />
                   </center>
 
                   <div>
@@ -935,425 +928,7 @@
       </section>
       <!--FIn de secction Escalerilla-->
 
-      <!--Sectio de torres inicio en general-->
 
-
-      <!--Inicio de secction torres-->
-      <section id="section25" class="section" style="display: none;">
-        <section id="racks">
-          <div class="area">
-            <div class="profile">
-              <div class="profile-info">
-                <h2>Sección de torre arriostradas </h2>
-                <p>
-                  Descubra nuestra amplia gama de torres arriostradas en Transformetal,
-                  diseñadas para cumplir con sus necesidades en infraestructura de comunicación
-                  inalámbrica. Con una construcción sólida y estabilidad confiable, nuestras torres
-                  ofrecen resistencia y durabilidad excepcionales, incluso en condiciones climáticas
-                  adversas. Fortalezca su red de comunicaciones con seguridad, eligiendo entre
-                  diversos tamaños y especificaciones que se adaptan perfectamente a sus requerimientos
-                  específicos. Confíe en Transformetal para ofrecerle soluciones de soporte duraderas
-                  y de alto rendimiento.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!--Conetdio menu-->
-          <div class="main-container">
-            <div class="categories">
-              <h2>Categorias</h2>
-              <div class="category-list">
-                <ul>
-                  <li><a href="#section25" onclick="showSection('section25'); event.preventDefault();" style="color: #d14013;">Sección de torre arriostradas</a></li>
-                  <li></li>
-                  <li><a href="#section26" onclick="showSection('section26'); event.preventDefault();">Accesorios para torres</a></li>
-                  <li></li>
-                  <li><a href="#section27" onclick="showSection('section27'); event.preventDefault();">Servicio de Instalacion de torres</a></li>
-                </ul>
-              </div>
-            </div>
-            <!--Fin COntenido-->
-            <div class=" contenido">
-              <div class="product-list" style="max-width: 950px">
-                <h2 style="padding: 5px; margin: auto">Secciones </h2>
-                <!--NEma1-->
-                <div class="product-item">
-                  <img src="assets/img/product/torres/torre/torreSeccion1.png" alt="remate" style="width: 90px; height: 200px; margin-left: 60px; padding: 5px;" class="product-image" />
-                  <div>
-                    <a class="product-title">
-                      <h3 style="font-size: 15px; margin-left: 50px;"> Sección de Torre de 6 metros</h3>
-                    </a>
-                    <p style="font-size: 15px; margin-left: 50px;">TR-TAA-STA-12</p>
-                  </div>
-                  <a href="DetalleProduct.php#product21" class="btnInfo">Mostrar Detalles</a>
-                </div>
-                <!--Nema2-->
-                <div class="product-item">
-                  <img src="assets/img/product/torres/torre/torreSeccion1.png" alt="remate" style="width: 90px; height: 200px; margin-left: 60px; padding: 5px;" class="product-image" />
-                  <div>
-                    <a class="product-title">
-                      <h3 style="font-size: 15px; margin-left: 50px;"> Sección de Torre de 6 metros</h3>
-                    </a>
-                    <p style="font-size: 15px; margin-left: 50px;">TR-TAA-STA-18</p>
-                  </div>
-                  <a href="DetalleProduct.php#product22" class="btnInfo">Mostrar Detalles</a>
-                </div>
-
-                <!--Nema2-->
-                <div class="product-item">
-                  <img src="assets/img/product/torres/torre/torreSeccion1.png" " alt=" remate" style="width: 90px; height: 200px; margin-left: 60px; padding: 5px;" class="product-image" />
-                  <div>
-                    <a class="product-title">
-                      <h3 style="font-size: 15px; margin-left: 50px;"> Sección de Torre de 6 metros</h3>
-                    </a>
-                    <p style="font-size: 15px; margin-left: 50px;">TR-TAA-STA-24</p>
-                  </div>
-                  <a href="DetalleProduct.php#product23" class="btnInfo">Mostrar Detalles</a>
-                </div>
-
-              </div>
-            </div>
-
-          </div>
-        </section>
-
-      </section>
-      <!--FIn de secction torres-->
-      <!--Inicio de secction torres-->
-      <section id="section26" class="section" style="display: none;">
-        <section id="racks">
-          <div class="area">
-            <div class="profile">
-              <div class="profile-info">
-                <h2>Accesorios </h2>
-                <p>
-                  Transformetal ofrece una amplia gama de accesorios para torres arriostradas,
-                  diseñados para garantizar una instalación segura y estable. Contamos con anclas
-                  de sujeción de alta resistencia, bases para torres arriostradas y bases de cimentación
-                  que proporcionan el soporte necesario para su infraestructura. Estos accesorios, fabricados
-                  con materiales duraderos, aseguran que su torre esté firmemente anclada y protegida, optimizando
-                  su rendimiento y estabilidad en cualquier condición.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!--Conetdio menu-->
-          <div class="main-container">
-            <div class="categories">
-              <h2>Categorias</h2>
-              <div class="category-list">
-                <ul>
-                  <li><a href="#section25" onclick="showSection('section25'); event.preventDefault();">Sección de torre arriostradas</a></li>
-                  <li></li>
-                  <li><a href="#section26" onclick="showSection('section26'); event.preventDefault();" style="color: #d14013;">Accesorios para torres</a></li>
-                  <li></li>
-                </ul>
-              </div>
-            </div>
-            <!--Fin COntenido-->
-            <div class=" contenido">
-              <div class="product-list" style="max-width: 950px">
-                <h2 style="padding: 5px; margin: auto">Productos </h2>
-                <!--NEma1-->
-                <div class="product-item">
-                  <img src="assets/img/product/torres/acces/anclas-torre1.png" alt="remate" style="width: 200px; height: 200px; margin-left: 60px; padding: 5px;" class="product-image" />
-                  <div>
-                    <a class="product-title">
-                      <h3 style="font-size: 15px; margin-left: 50px;">Anclas para sujeccion de torre arriostradas</h3>
-                    </a>
-                    <p style="font-size: 15px; margin-left: 50px;">TR-TAA-AN-7</p>
-                  </div>
-                  <a href="DetalleProduct.php#product24" class="btnInfo">Mostrar Detalles</a>
-                </div>
-                <!--product2-->
-                <div class="product-item">
-                  <img src="assets/img/product/torres/acces/baseParaTorres1.png" alt="remate" style="width: 200px; height: 200px; margin-left: 60px; padding: 5px;" class="product-image" />
-                  <div>
-                    <a class="product-title">
-                      <h3 style="font-size: 15px; margin-left: 50px;"> Base para torres arriostradas</h3>
-                    </a>
-                    <p style="font-size: 15px; margin-left: 50px;">TR-TAA-BTA-001</p>
-                  </div>
-                  <a href="DetalleProduct.php#product25" class="btnInfo">Mostrar Detalles</a>
-                </div>
-
-                <!--product3-->
-                <div class="product-item">
-                  <img src="assets/img/product/torres/acces/remateTorres1.png" alt="remate" style="width: 200px; height: 200px; margin-left: 60px; padding: 5px;" class="product-image" />
-                  <div>
-                    <a class="product-title">
-                      <h3 style="font-size: 15px; margin-left: 50px;"> Remate superior de torre</h3>
-                    </a>
-                    <p style="font-size: 15px; margin-left: 50px;">TR-TAA-RS-001</p>
-                  </div>
-                  <a href="DetalleProduct.php#product26" class="btnInfo">Mostrar Detalles</a>
-                </div>
-
-                <!--product2-->
-                <div class="product-item">
-                  <img src="assets/img/product/torres/acces/BaseDeComentacion1.png" alt="remate" style="width: 200px; height: 200px; margin-left: 60px; padding: 5px;" class="product-image" />
-                  <div>
-                    <a class="product-title">
-                    </a>
-                    <h3 style="font-size: 15px; margin-left: 50px;">Base de cimentacion</h3>
-                    <p style="font-size: 15px; margin-left: 50px;">TR-TAA-BC-001</p>
-                  </div>
-                  <a href="DetalleProduct.php#product27" class="btnInfo">Mostrar Detalles</a>
-                </div>
-
-
-              </div>
-
-            </div>
-        </section>
-
-      </section>
-      <!--FIn de secction torres-->
-
-      <!--FIn de secction accesorios-->
-      <section id="section27" class="section" style="display: none;">
-        <div>
-          <div class="head">
-            <h1><span>Instalación de </span><br>torre <span> arriostrada</span></h1>
-          </div>
-
-
-          <!-- Sección de Salones Equipados -->
-          <section class="salones">
-            <div class="salones-text">
-              <h2>Estructuras Innovadoras y de Alta Resistencia</h2>
-              <p>
-                Instalación de torre arriostrada o atirantada en secciones de seis metros, triangulares, diseñadas bajo la norma ISO 9000,
-                estructura vertical que se utiliza para soportar cargas pesadas como antenas de comunicación, equipos de transmisión, sistemas
-                de iluminación y otros dispositivos, así como la conexión a sistema de tierras y protección atmosférica.
-
-              </p>
-
-            </div>
-            <div class="salones-image">
-              <img src="assets/img/servicio/torre/torre-img1.png" alt="Salones Equipados">
-            </div>
-          </section>
-
-          <!-- Sección de Colecciones -->
-          <section id="segunda">
-            <div class="salones-text " id="cuarta">
-              <h2>Eficiencia y Durabilidad en Soporte Estructural</h2>
-              <p>
-                Las torres arriostradas funcionan utilizando la tensión y compresión, con cables que se colocan en ángulos específicos
-                para distribuir las cargas de la estructura de manera más efectiva. Los ángulos se calculan para resistir la tensión
-                y compresión a la que está sujeta la torre. La torre se compone de una columna central que se eleva desde la base
-                hasta la parte superior.
-
-              </p>
-              <br>
-              <p>
-                Fundición de la base de cimentación y base de la torre, instalación de las secciones de torre, anclas expansivas para
-                suelo y de fijación para terraza, atirantado con cable de acero de ¼” y remate.
-              </p>
-            </div>
-
-          </section>
-          
-          <!-- Sección Principal -->
-          <section class="capacitaciones">
-            <!-- Título principal -->
-            <div class="header-section">
-              <h1>Categorías de productos destacados</h1>
-            </div>
-            <div class="help-grid">
-              <a href=" #" class="help-item">
-                <img src="assets/img/servicio/torre/Tensores.jpg" alt="Negocios">
-                <p>Tensores de 5/8”</p>
-              </a>
-              <a class="help-item">
-                <img src="assets/img/servicio/torre/Grilletes.jpg" alt="Negocios">
-                <p>Grillete de1/2"</p>
-              </a>
-              <a class="help-item">
-                <img src="assets/img/servicio/torre/Preformados.jpg" alt="Negocios">
-                <p>Preformados de 1/4</p>
-              </a>
-              <a class="help-item">
-                <img src="assets/img/servicio/torre/CableAcerado.jpg" alt="Negocios">
-                <p>Cable acerado de 1/4</p>
-              </a>
-              <a class="help-item">
-                <img src="assets/img/servicio/torre/Tornillos.jpg" alt="Negocios">
-                <p>Tornillo de 3/8 x 2 1/2</p>
-              </a>
-              <a class="help-item">
-                <img src="assets/img/servicio/torre/Guardacabos.jpg" alt="Negocios">
-                <p>Guardacabos</p>
-              </a>
-              <a class="help-item">
-                <img src="assets/img/servicio/torre/pararratos.jpg" alt="Negocios">
-                <p>Pararrayos punta Franklin</p>
-              </a>
-              <a class="help-item">
-                <img src="assets/img/servicio/torre/señalizacion.png" alt="Negocios">
-                <p>Señalización nocturna</p>
-              </a>
-
-
-
-            </div>
-
-          </section>
-
-
-
-
-        </div>
-      </section>
-      <!--Secciom de apartado de cada parrafo-->
-
-
-      <!--Inicio de secction sistemas de tierras-->
-
-      <!--Inicio de secction sistemas-->
-      <section id="section13" class="section" style="display: none;">
-        <section id="racks">
-          <div class="area">
-            <div class="profile">
-              <div class="profile-info">
-                <h2>Sistema de Tierra</h2>
-                <p>
-                  El sistema de tierra de Transformetal está diseñado para garantizar
-                  la seguridad eléctrica y la protección de sus equipos críticos. Fabricado
-                  con materiales de alta calidad, ofrece una eficiente disipación de corriente,
-                  minimizando riesgos y asegurando el correcto funcionamiento de su infraestructura.
-                  Ideal para instalaciones industriales y de telecomunicaciones, nuestro sistema
-                  de tierra es una solución confiable que cumple con los más altos estándares de
-                  seguridad. Confíe en Transformetal para proteger su inversión y garantizar
-                  la continuidad de sus operaciones.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!--Conetdio menu-->
-          <div class="main-container">
-            <div class="categories">
-              <h2>Categorias</h2>
-              <div class="category-list">
-                <ul>
-                  <a href="#section6" onclick="showSection('section14'); event.preventDefault();">Platina</a>
-                  <li></li>
-                </ul>
-              </div>
-            </div>
-            <!--Fin COntenido-->
-            <div class="contenido">
-              <div class="product-list" style="max-width: 950px">
-                <h2 style="padding: 5px; margin: auto">Productos </h2>
-                <!--Platina1-->
-                <div class="product-item">
-                  <img src="assets/img/product/torres/accesorios/PLATINA DE ACERO GALVANIZADA.png" alt="Antena Yagi" style="width: 250px; height: 200px" class="product-image" href="DetalleProduct.php#product30" />
-                  <div>
-                    <a class="product-title">
-                      <h3 style="font-size: 15px" alt="Antena Yagi" style="width: 250px; height: 200px" class="product-image" href="DetalleProduct.php#product30">PLATINA DE ACERO GALVANIZADA DE ¼”</h3>
-                    </a>
-                    <p>TR-ST-HG-4-0.25</p>
-                  </div>
-                  <a href="DetalleProduct.php#product30" class="btnInfo">Mostrar Detalles</a>
-
-                </div>
-                <!--Nema2-->
-                <div class="product-item">
-                  <img src="assets/img/product/torres/accesorios/PLATINA DE cobre.PNG" alt="Antena Yagi" style="width: 200px; height: 200px" class="product-image" />
-                  <div>
-                    <a class="product-title">
-                      <h3 style="font-size: 15px">PLATINA DE COBRE DE ¼”</h3>
-                    </a>
-                    <p>TR-ST-CU-0.25</p>
-                  </div>
-                  <a href="DetalleProduct.php#product2" class="btnInfo">Mostrar Detalles</a>
-                </div>
-
-                <!--Nema3-->
-
-
-              </div>
-            </div>
-
-          </div>
-        </section>
-
-      </section>
-      <!--FIn de secction NEMA-->
-      <!--Fin de secction sistemas de tierras-->
-
-      <!--Fin de secction platinas-->
-      <!--Inicio de secction platinas-->
-      <section id="section14" class="section" style="display: none;">
-        <section id="racks">
-          <div class="area">
-            <div class="profile">
-              <div class="profile-info">
-                <h2>Platinas</h2>
-                <p>
-                  Las platinas de Transformetal están diseñadas para ofrecer soporte
-                  y estabilidad en una amplia variedad de aplicaciones. Fabricadas
-                  con materiales de alta calidad, nuestras platinas garantizan una
-                  excelente resistencia mecánica y durabilidad. Disponibles en
-                  diferentes tamaños y especificaciones, son ideales para adaptarse
-                  a las necesidades específicas de su proyecto, proporcionando una
-                  solución confiable y eficiente para reforzar su infraestructura.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!--Conetdio menu-->
-          <div class="main-container">
-            <div class="categories">
-              <h2>Categorias</h2>
-              <div class="category-list">
-                <ul>
-                  <a href="#section6" onclick="showSection('section14'); event.preventDefault();" style="color: #d14013;">Platina</a>
-                  <li></li>
-                </ul>
-              </div>
-            </div>
-            <!--Fin COntenido-->
-            <div class="contenido">
-              <div class="product-list" style="max-width: 950px">
-                <h2 style="padding: 5px; margin: auto">Productos </h2>
-                <!--Platina1-->
-                <div class="product-item">
-                  <img src="assets/img/product/torres/accesorios/PLATINA DE ACERO GALVANIZADA.png" alt="Antena Yagi" style="width: 250px; height: 200px" class="product-image" href="DetalleProduct.php#produc30" />
-                  <div>
-                    <a class="product-title">
-                      <h3 style="font-size: 15px" href="DetalleProduct.php#product1">PLATINA DE ACERO GALVANIZADA DE ¼”</h3>
-                    </a>
-                    <p>TR-ST-HG-4-0.25</p>
-                  </div>
-                  <a href="DetalleProduct.php#product30" class="btnInfo">Mostrar Detalles</a>
-
-                </div>
-                <!--Nema2-->
-                <div class="product-item">
-                  <img src="assets/img/product/torres/accesorios/PLATINA DE cobre.PNG" alt="Antena Yagi" style="width: 200px; height: 200px" class="product-image" />
-                  <div>
-                    <a class="product-title">
-                      <h3 style="font-size: 15px">PLATINA DE COBRE DE ¼”</h3>
-                    </a>
-                    <p>TR-ST-CU-0.25</p>
-                  </div>
-                  <a href="DetalleProduct.php#product31" class="btnInfo">Mostrar Detalles</a>
-                </div>
-
-                <!--Nema3-->
-
-
-              </div>
-            </div>
-
-          </div>
-        </section>
-
-      </section>
-      <!--Fin de secction platinas-->
-      <!--FIn section de torres inicio en general-->
   </div>
 
   <!--inicio de seccion de planta-->
@@ -1547,7 +1122,7 @@
               <!--Product 1-->
               <div class="product-item">
                 <a href="DetalleProduct.php#product71">
-                  <img src="assets/img/product/herrajes/CRUCETA DE RESERVA PARA CABLEADO2.png" alt="Cruceta de Reserva para Cableado" style="width: 250px; height: 200px" class="product-image" />
+                  <img src="assets/img/product/herrajes/CRUCETA DE RESERVA PARA CABLEADO2.png" alt="Cruceta de Reserva para Cableado" class="product-image" />
                 </a>
                 <div>
                   <a class="product-title">
@@ -1561,7 +1136,7 @@
               <!--Product 2-->
               <div class="product-item">
                 <a href="DetalleProduct.php#product50-1">
-                  <img src="assets/img/product/planta/ChapaDeRemateTipoD.png" alt="Remate de Anclaje Chapa de Remate Tipo D" style="width: 250px; height: 200px" class="product-image" />
+                  <img src="assets/img/product/planta/ChapaDeRemateTipoD.png" alt="Remate de Anclaje Chapa de Remate Tipo D" class="product-image" />
                 </a>
                 <div>
                   <a class="product-title">
@@ -1582,16 +1157,352 @@
 
   </section>
   <!--Fin de seccion de planta-->
-<Section>
-    <!--Inicio de secction  caja-->
-    <section id="MobiliarUrbano" class="section" style="display: none;">
+
+  <!--Seccion de mobiliario-->
+  <section>
+    <section id="Mobiliario" class="section" style="display: none;">
       <section id="racks">
         <div class="area">
           <div class="profile">
             <div class="profile-info">
-              <h2>MobiliarUrbano</h2>
+              <h2>Mobiliario</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia et, totam omnis consectetur, quibusdam dolorum ipsa possimus necessitatibus, qui ut quasi vero repellendus sit optio. Saepe consequatur assumenda laboriosam possimus.
+                Esta sección se agregara próximamente
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--Conetdio menu-->
+        <div class="main-container">
+          <div class="categories">
+            <h2>Categorias</h2>
+            <div class="category-list">
+              <ul>
+                <li><a href="#section85" onclick="showSection('section85'); event.preventDefault();" style="color: #d14013;">Cate1</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!--Fin Contenido-->
+          <div class="contenido">
+            <div class="product-list" style="max-width: 950px">
+              <h2 style="padding: 5px; margin: auto">Productos</h2>
+
+              <!--Product 1-->
+              <div class="product-item">
+                <a href="DetalleProduct.php#product71">
+                  <img src="assets/img/logo.png" alt="Cruceta de Reserva para Cableado" class="product-image" />
+                </a>
+                <div>
+                  <a class="product-title">
+                    <h3 style="font-size: 15px">Productos</h3>
+                  </a>
+                  <p>PRO-DUC-TO</p>
+                </div>
+                <a class="btnInfo">Mostrar Detalles</a>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </section>
+  <!--Fin de mobiliario-->
+
+  <!--Seccion de Exhibición y Almacenes-->
+  <section>
+    <!--Seccion de Exhibición y Almacenes Inicio-->
+    <section id="Exhibicion" class="section" style="display: none;">
+      <section id="racks">
+        <div class="area">
+          <div class="profile">
+            <div class="profile-info">
+              <h2>Exhibicion</h2>
+              <p>
+                Esta sección se agregara próximamente
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--Conetdio menu-->
+        <div class="main-container">
+          <div class="categories">
+            <h2>Categorias</h2>
+            <div class="category-list">
+              <ul>
+                <li><a href="#" onclick="showSection(''); event.preventDefault();" style="color: #d14013;">Cate1</a></li>
+                <li></li>
+              </ul>
+            </div>
+          </div>
+
+          <!--Fin Contenido-->
+          <div class="contenido">
+            <div class="product-list" style="max-width: 950px">
+              <h2 style="padding: 5px; margin: auto">Productos</h2>
+
+              <!--Product 1-->
+              <div class="product-item">
+                <a href="DetalleProduct.php#product71">
+                  <img src="assets/img/logo.png" alt="Cruceta de Reserva para Cableado" class="product-image" />
+                </a>
+                <div>
+                  <a class="product-title">
+                    <h3 style="font-size: 15px">Productos</h3>
+                  </a>
+                  <p>PRO-DUC-TO</p>
+                </div>
+                <a class="btnInfo">Mostrar Detalles</a>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!--Seccion de Exhibición y Almacenes FIN-->
+
+    <!--Gondalas inicio-->
+    <section id="Gondolas" class="section" style="display: none;">
+      <section id="racks">
+        <div class="area">
+          <div class="profile">
+            <div class="profile-info">
+              <h2>Gondalas</h2>
+              <p>
+                Esta sección se agregara próximamente
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--Conetdio menu-->
+        <div class="main-container">
+          <div class="categories">
+            <h2>Categorias</h2>
+            <div class="category-list">
+              <ul>
+                <li><a href="#section6" onclick="showSection('section6'); event.preventDefault();" style="color: #d14013;">Categoria</a></li>
+
+              </ul>
+            </div>
+
+          </div>
+
+          <!--Fin Contenido-->
+          <div class="contenido">
+            <div class="product-list" style="max-width: 950px">
+              <h2 style="padding: 5px; margin: auto">Productos</h2>
+
+              <!--Product 1-->
+              <div class="product-item">
+                <a href="DetalleProduct.php#product71">
+                  <img src="assets/img/logo.png" alt="Cruceta de Reserva para Cableado" class="product-image" />
+                </a>
+                <div>
+                  <a class="product-title">
+                    <h3 style="font-size: 15px">Productos</h3>
+                  </a>
+                  <p>PRO-DUC-TO</p>
+                </div>
+                <a class="btnInfo">Mostrar Detalles</a>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!--Gondalas Fin-->
+
+    <!--Estanteria  inicio-->
+    <section id="Estanteria" class="section" style="display: none;">
+      <section id="racks">
+        <div class="area">
+          <div class="profile">
+            <div class="profile-info">
+              <h2>Estanteria </h2>
+              <p>
+                Esta sección se agregara próximamente
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--Conetdio menu-->
+        <div class="main-container">
+          <div class="categories">
+            <h2>Categorias</h2>
+            <div class="category-list">
+              <ul>
+                <li><a href="#" onclick="showSection(''); event.preventDefault();" style="color: #d14013;">Categoria</a></li>
+                <li></li>
+              </ul>
+            </div>
+          </div>
+
+          <!--Fin Contenido-->
+          <div class="contenido">
+            <div class="product-list" style="max-width: 950px">
+              <h2 style="padding: 5px; margin: auto">Productos</h2>
+
+              <!--Product 1-->
+              <div class="product-item">
+                <a href="DetalleProduct.php#product71">
+                  <img src="assets/img/logo.png" alt="Cruceta de Reserva para Cableado" class="product-image" />
+                </a>
+                <div>
+                  <a class="product-title">
+                    <h3 style="font-size: 15px">Productos</h3>
+                  </a>
+                  <p>PRO-DUC-TO</p>
+                </div>
+                <a class="btnInfo">Mostrar Detalles</a>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!--Estanteria  FIn-->
+
+    <!--RackIndustrial  inicio-->
+    <section id="RackIndustrial" class="section" style="display: none;">
+      <section id="racks">
+        <div class="area">
+          <div class="profile">
+            <div class="profile-info">
+              <h2>Rack Industrial </h2>
+              <p>
+                Esta sección se agregara próximamente
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--Conetdio menu-->
+        <div class="main-container">
+          <div class="categories">
+            <h2>Categorias</h2>
+            <div class="category-list">
+              <ul>
+                <li><a href="#" onclick="showSection(''); event.preventDefault();" style="color: #d14013;">Categoria</a></li>
+                <li></li>
+              </ul>
+            </div>
+          </div>
+
+          <!--Fin Contenido-->
+          <div class="contenido">
+            <div class="product-list" style="max-width: 950px">
+              <h2 style="padding: 5px; margin: auto">Productos</h2>
+
+              <!--Product 1-->
+              <div class="product-item">
+                <a href="DetalleProduct.php#product71">
+                  <img src="assets/img/logo.png" alt="Cruceta de Reserva para Cableado" class="product-image" />
+                </a>
+                <div>
+                  <a class="product-title">
+                    <h3 style="font-size: 15px">Productos</h3>
+                  </a>
+                  <p>PRO-DUC-TO</p>
+                </div>
+                <a class="btnInfo">Mostrar Detalles</a>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!--RackIndustrial  FIn-->
+
+  </section>
+  <!--Fin de Exhibición y Almacenes-->
+
+  <!--Seccion de Arquitectónicos y Panales Decorativos-->
+  <section>
+    <section id="Arquitectonicos" class="section" style="display: none;">
+      <section id="racks">
+        <div class="area">
+          <div class="profile">
+            <div class="profile-info">
+              <h2>Arquitectonicos</h2>
+              <p>
+                Esta sección se agregara próximamente
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--Conetdio menu-->
+        <div class="main-container">
+          <div class="categories">
+            <h2>Categorias</h2>
+            <div class="category-list">
+              <ul>
+                <li><a href="#section85" onclick="showSection('section85'); event.preventDefault();" style="color: #d14013;">Cate1</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!--Fin Contenido-->
+          <div class="contenido">
+            <div class="product-list" style="max-width: 950px">
+              <h2 style="padding: 5px; margin: auto">Productos</h2>
+
+              <!--Product 1-->
+              <div class="product-item">
+                <a href="DetalleProduct.php#product71">
+                  <img src="assets/img/logo.png" alt="Cruceta de Reserva para Cableado" class="product-image" />
+                </a>
+                <div>
+                  <a class="product-title">
+                    <h3 style="font-size: 15px">Productos</h3>
+                  </a>
+                  <p>PRO-DUC-TO</p>
+                </div>
+                <a class="btnInfo">Mostrar Detalles</a>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </section>
+  <!--Fin de Arquitectónicos y Panales Decorativos-->
+
+  <!--Seccion de torres inicio-->
+  <Section>
+    <!--Sectio de torres inicio en general-->
+    <!--Inicio de secction torres-->
+    <section id="section25" class="section" style="display: none;">
+      <section id="racks">
+        <div class="area">
+          <div class="profile">
+            <div class="profile-info">
+              <h2>Sección de torre arriostradas </h2>
+              <p>
+                Descubra nuestra amplia gama de torres arriostradas en Transformetal,
+                diseñadas para cumplir con sus necesidades en infraestructura de comunicación
+                inalámbrica. Con una construcción sólida y estabilidad confiable, nuestras torres
+                ofrecen resistencia y durabilidad excepcionales, incluso en condiciones climáticas
+                adversas. Fortalezca su red de comunicaciones con seguridad, eligiendo entre
+                diversos tamaños y especificaciones que se adaptan perfectamente a sus requerimientos
+                específicos. Confíe en Transformetal para ofrecerle soluciones de soporte duraderas
+                y de alto rendimiento.
               </p>
             </div>
           </div>
@@ -1602,9 +1513,334 @@
             <h2>Categorias</h2>
             <div class="category-list">
               <ul>
-                <a href="#section50" onclick="showSection('section50'); event.preventDefault();" style="color: #d14013;">Indoor</a>
+                <li><a href="#section25" onclick="showSection('section25'); event.preventDefault();" style="color: #d14013;">Sección de torre arriostradas</a></li>
                 <li></li>
+                <li><a href="#section26" onclick="showSection('section26'); event.preventDefault();">Accesorios para torres</a></li>
+                <li></li>
+                <li><a href="#section27" onclick="showSection('section27'); event.preventDefault();">Servicio de Instalacion de torres</a></li>
+              </ul>
+            </div>
+          </div>
+          <!--Fin COntenido-->
+          <div class=" contenido">
+            <div class="product-list" style="max-width: 950px">
+              <h2 style="padding: 5px; margin: auto">Secciones </h2>
+              <!--NEma1-->
+              <div class="product-item">
+                <img src="assets/img/product/torres/torre/torreSeccion1.png" alt="remate" style="width: 90px; height: 200px; margin-left: 60px; padding: 5px;" class="product-image" />
+                <div>
+                  <a class="product-title">
+                    <h3 style="font-size: 15px; margin-left: 50px;"> Sección de Torre de 6 metros</h3>
+                  </a>
+                  <p style="font-size: 15px; margin-left: 50px;">TR-TAA-STA-12</p>
+                </div>
+                <a href="DetalleProduct.php#product21" class="btnInfo">Mostrar Detalles</a>
+              </div>
+              <!--Nema2-->
+              <div class="product-item">
+                <img src="assets/img/product/torres/torre/torreSeccion1.png" alt="remate" style="width: 90px; height: 200px; margin-left: 60px; padding: 5px;" class="product-image" />
+                <div>
+                  <a class="product-title">
+                    <h3 style="font-size: 15px; margin-left: 50px;"> Sección de Torre de 6 metros</h3>
+                  </a>
+                  <p style="font-size: 15px; margin-left: 50px;">TR-TAA-STA-18</p>
+                </div>
+                <a href="DetalleProduct.php#product22" class="btnInfo">Mostrar Detalles</a>
+              </div>
 
+              <!--Nema2-->
+              <div class="product-item">
+                <img src="assets/img/product/torres/torre/torreSeccion1.png" " alt=" remate" style="width: 90px; height: 200px; margin-left: 60px; padding: 5px;" class="product-image" />
+                <div>
+                  <a class="product-title">
+                    <h3 style="font-size: 15px; margin-left: 50px;"> Sección de Torre de 6 metros</h3>
+                  </a>
+                  <p style="font-size: 15px; margin-left: 50px;">TR-TAA-STA-24</p>
+                </div>
+                <a href="DetalleProduct.php#product23" class="btnInfo">Mostrar Detalles</a>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </section>
+    <!--FIn de secction torres-->
+    <!--Inicio de secction torres-->
+    <section id="section26" class="section" style="display: none;">
+      <section id="racks">
+        <div class="area">
+          <div class="profile">
+            <div class="profile-info">
+              <h2>Accesorios </h2>
+              <p>
+                Transformetal ofrece una amplia gama de accesorios para torres arriostradas,
+                diseñados para garantizar una instalación segura y estable. Contamos con anclas
+                de sujeción de alta resistencia, bases para torres arriostradas y bases de cimentación
+                que proporcionan el soporte necesario para su infraestructura. Estos accesorios, fabricados
+                con materiales duraderos, aseguran que su torre esté firmemente anclada y protegida, optimizando
+                su rendimiento y estabilidad en cualquier condición.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--Conetdio menu-->
+        <div class="main-container">
+          <div class="categories">
+            <h2>Categorias</h2>
+            <div class="category-list">
+              <ul>
+                <li><a href="#section25" onclick="showSection('section25'); event.preventDefault();">Sección de torre arriostradas</a></li>
+                <li></li>
+                <li><a href="#section26" onclick="showSection('section26'); event.preventDefault();" style="color: #d14013;">Accesorios para torres</a></li>
+                <li></li>
+                <li><a href="#section27" onclick="showSection('section27'); event.preventDefault();">Servicio de Instalacion de torres</a></li>
+              </ul>
+            </div>
+          </div>
+          <!--Fin COntenido-->
+          <div class=" contenido">
+            <div class="product-list" style="max-width: 950px">
+              <h2 style="padding: 5px; margin: auto">Productos </h2>
+              <!--NEma1-->
+              <div class="product-item">
+                <img src="assets/img/product/torres/acces/anclas-torre1.png" alt="remate" style="width: 200px; height: 200px; margin-left: 60px; padding: 5px;" class="product-image" />
+                <div>
+                  <a class="product-title">
+                    <h3 style="font-size: 15px; margin-left: 50px;">Anclas para sujeccion de torre arriostradas</h3>
+                  </a>
+                  <p style="font-size: 15px; margin-left: 50px;">TR-TAA-AN-7</p>
+                </div>
+                <a href="DetalleProduct.php#product24" class="btnInfo">Mostrar Detalles</a>
+              </div>
+              <!--product2-->
+              <div class="product-item">
+                <img src="assets/img/product/torres/acces/baseParaTorres1.png" alt="remate" style="width: 200px; height: 200px; margin-left: 60px; padding: 5px;" class="product-image" />
+                <div>
+                  <a class="product-title">
+                    <h3 style="font-size: 15px; margin-left: 50px;"> Base para torres arriostradas</h3>
+                  </a>
+                  <p style="font-size: 15px; margin-left: 50px;">TR-TAA-BTA-001</p>
+                </div>
+                <a href="DetalleProduct.php#product25" class="btnInfo">Mostrar Detalles</a>
+              </div>
+
+              <!--product3-->
+              <div class="product-item">
+                <img src="assets/img/product/torres/acces/remateTorres1.png" alt="remate" style="width: 200px; height: 200px; margin-left: 60px; padding: 5px;" class="product-image" />
+                <div>
+                  <a class="product-title">
+                    <h3 style="font-size: 15px; margin-left: 50px;"> Remate superior de torre</h3>
+                  </a>
+                  <p style="font-size: 15px; margin-left: 50px;">TR-TAA-RS-001</p>
+                </div>
+                <a href="DetalleProduct.php#product26" class="btnInfo">Mostrar Detalles</a>
+              </div>
+
+              <!--product2-->
+              <div class="product-item">
+                <img src="assets/img/product/torres/acces/BaseDeComentacion1.png" alt="remate" style="width: 200px; height: 200px; margin-left: 60px; padding: 5px;" class="product-image" />
+                <div>
+                  <a class="product-title">
+                  </a>
+                  <h3 style="font-size: 15px; margin-left: 50px;">Base de cimentacion</h3>
+                  <p style="font-size: 15px; margin-left: 50px;">TR-TAA-BC-001</p>
+                </div>
+                <a href="DetalleProduct.php#product27" class="btnInfo">Mostrar Detalles</a>
+              </div>
+
+
+            </div>
+
+          </div>
+      </section>
+
+    </section>
+    <!--FIn de secction torres-->
+
+    <!--FIn de secction accesorios-->
+    <section id="section27" class="section" style="display: none;">
+      <div>
+        <div class="head">
+          <h1><span>Instalación de </span><br>torre <span> arriostrada</span></h1>
+        </div>
+
+
+        <!-- Sección de Salones Equipados -->
+        <section class="salones">
+          <div class="salones-text">
+            <h2>Estructuras Innovadoras y de Alta Resistencia</h2>
+            <p>
+              Instalación de torre arriostrada o atirantada en secciones de seis metros, triangulares, diseñadas bajo la norma ISO 9000,
+              estructura vertical que se utiliza para soportar cargas pesadas como antenas de comunicación, equipos de transmisión, sistemas
+              de iluminación y otros dispositivos, así como la conexión a sistema de tierras y protección atmosférica.
+
+            </p>
+
+          </div>
+          <div class="salones-image">
+            <img src="assets/img/servicio/torre/torre-img1.png" alt="Salones Equipados">
+          </div>
+        </section>
+
+        <!-- Sección de Colecciones -->
+        <section id="segunda">
+          <div class="salones-text " id="cuarta">
+            <h2>Eficiencia y Durabilidad en Soporte Estructural</h2>
+            <p>
+              Las torres arriostradas funcionan utilizando la tensión y compresión, con cables que se colocan en ángulos específicos
+              para distribuir las cargas de la estructura de manera más efectiva. Los ángulos se calculan para resistir la tensión
+              y compresión a la que está sujeta la torre. La torre se compone de una columna central que se eleva desde la base
+              hasta la parte superior.
+
+            </p>
+            <br>
+            <p>
+              Fundición de la base de cimentación y base de la torre, instalación de las secciones de torre, anclas expansivas para
+              suelo y de fijación para terraza, atirantado con cable de acero de ¼” y remate.
+            </p>
+          </div>
+
+        </section>
+
+        <!-- Sección Principal -->
+        <section class="capacitaciones">
+          <!-- Título principal -->
+          <div class="header-section">
+            <h1>Categorías de productos destacados</h1>
+          </div>
+          <div class="help-grid">
+            <a class="help-item">
+              <img src="assets/img/servicio/torre/Tensores.jpg" alt="Negocios">
+              <p>Tensores de 5/8”</p>
+            </a>
+            <a class="help-item">
+              <img src="assets/img/servicio/torre/Grilletes.jpg" alt="Negocios">
+              <p>Grillete de1/2"</p>
+            </a>
+            <a class="help-item">
+              <img src="assets/img/servicio/torre/Preformados.jpg" alt="Negocios">
+              <p>Preformados de 1/4</p>
+            </a>
+            <a class="help-item">
+              <img src="assets/img/servicio/torre/CableAcerado.jpg" alt="Negocios">
+              <p>Cable acerado de 1/4</p>
+            </a>
+            <a class="help-item">
+              <img src="assets/img/servicio/torre/Tornillos.jpg" alt="Negocios">
+              <p>Tornillo de 3/8 x 2 1/2</p>
+            </a>
+            <a class="help-item">
+              <img src="assets/img/servicio/torre/Guardacabos.jpg" alt="Negocios">
+              <p>Guardacabos</p>
+            </a>
+            <a class="help-item">
+              <img src="assets/img/servicio/torre/pararratos.jpg" alt="Negocios">
+              <p>Pararrayos punta Franklin</p>
+            </a>
+            <a class="help-item">
+              <img src="assets/img/servicio/torre/señalizacion.png" alt="Negocios">
+              <p>Señalización nocturna</p>
+            </a>
+
+
+
+          </div>
+
+        </section>
+
+
+
+
+      </div>
+    </section>
+    <!--Secciom de apartado de cada parrafo-->
+
+
+    <!--Inicio de secction sistemas de tierras-->
+    <!--Balizas Inicio-->
+    <section id="Balizas" class="section" style="display: none;">
+      <section id="racks">
+        <div class="area">
+          <div class="profile">
+            <div class="profile-info">
+              <h2>Arquitectonicos</h2>
+              <p>
+                Esta sección se agregara próximamente
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--Conetdio menu-->
+        <div class="main-container">
+          <div class="categories">
+            <h2>Categorias</h2>
+            <div class="category-list">
+              <ul>
+                <li><a href="#section85" onclick="showSection('section85'); event.preventDefault();" style="color: #d14013;">Cate1</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!--Fin Contenido-->
+          <div class="contenido">
+            <div class="product-list" style="max-width: 950px">
+              <h2 style="padding: 5px; margin: auto">Productos</h2>
+
+              <!--Product 1-->
+              <div class="product-item">
+                <a href="DetalleProduct.php#product71">
+                  <img src="assets/img/logo.png" alt="Cruceta de Reserva para Cableado" class="product-image" />
+                </a>
+                <div>
+                  <a class="product-title">
+                    <h3 style="font-size: 15px">Productos</h3>
+                  </a>
+                  <p>PRO-DUC-TO</p>
+                </div>
+                <a class="btnInfo">Mostrar Detalles</a>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  <!--Balizas Fin-->
+    <!--Fin de secction sistemas de tierras-->
+
+    <!--Fin de secction platinas-->
+    <!--Inicio de secction platinas-->
+    <section id="section14" class="section" style="display: none;">
+      <section id="racks">
+        <div class="area">
+          <div class="profile">
+            <div class="profile-info">
+              <h2>Platinas</h2>
+              <p>
+                Las platinas de Transformetal están diseñadas para ofrecer soporte
+                y estabilidad en una amplia variedad de aplicaciones. Fabricadas
+                con materiales de alta calidad, nuestras platinas garantizan una
+                excelente resistencia mecánica y durabilidad. Disponibles en
+                diferentes tamaños y especificaciones, son ideales para adaptarse
+                a las necesidades específicas de su proyecto, proporcionando una
+                solución confiable y eficiente para reforzar su infraestructura.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--Conetdio menu-->
+        <div class="main-container">
+          <div class="categories">
+            <h2>Categorias</h2>
+            <div class="category-list">
+              <ul>
+                <a href="#section6" onclick="showSection('section14'); event.preventDefault();" style="color: #d14013;">Platina</a>
+                <li></li>
               </ul>
             </div>
           </div>
@@ -1614,16 +1850,29 @@
               <h2 style="padding: 5px; margin: auto">Productos </h2>
               <!--Platina1-->
               <div class="product-item">
-                <img src="assets/img/product/caja/caja para fuente1.png" alt="Antena Yagi" style="width: 250px; height: 200px" class="product-image" href="DetalleProduct.php#produc30" />
+                <img src="assets/img/product/torres/accesorios/PLATINA DE ACERO GALVANIZADA.png" alt="Antena Yagi" style="width: 250px; height: 200px" class="product-image" href="DetalleProduct.php#produc30" />
                 <div>
                   <a class="product-title">
-                    <h3 style="font-size: 15px" href="DetalleProduct.php#product50">CAJA PARA FUENTE ENERGIA CAJA DE 20.5*23.5*7.5</h3>
+                    <h3 style="font-size: 15px" href="DetalleProduct.php#product1">PLATINA DE ACERO GALVANIZADA DE ¼”</h3>
                   </a>
-                  <p> IE-CI-FE-20.5-23.5</p>
+                  <p>TR-ST-HG-4-0.25</p>
                 </div>
-                <a href="DetalleProduct.php#product50" class="btnInfo">Mostrar Detalles</a>
+                <a href="DetalleProduct.php#product30" class="btnInfo">Mostrar Detalles</a>
 
               </div>
+              <!--Nema2-->
+              <div class="product-item">
+                <img src="assets/img/product/torres/accesorios/PLATINA DE cobre.PNG" alt="Antena Yagi" style="width: 200px; height: 200px" class="product-image" />
+                <div>
+                  <a class="product-title">
+                    <h3 style="font-size: 15px">PLATINA DE COBRE DE ¼”</h3>
+                  </a>
+                  <p>TR-ST-CU-0.25</p>
+                </div>
+                <a href="DetalleProduct.php#product31" class="btnInfo">Mostrar Detalles</a>
+              </div>
+
+              <!--Nema3-->
 
 
             </div>
@@ -1633,8 +1882,13 @@
       </section>
 
     </section>
-    <!--Fin de secction caja-->
-</Section>
+    <!--Fin de secction platinas-->
+
+
+
+    <!--FIn section de torres inicio en general-->
+  </Section>
+  <!--Seccion de torres fin-->
 
   <div id="loader">
   </div>

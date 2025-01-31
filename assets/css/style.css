@@ -68,8 +68,9 @@ button, a {
 .container-hero {
 /*background-color: linear-gradient(90deg, #341f79  0%, #c109f9 100%); 
 background: linear-gradient(90deg, #341f79 0%, #c109f9 100%);*/
-background-color: #eee;
-color: #000000;
+/*background-color: #eee;
+color: #000000;*/
+background-color: #000000 !important;
 }
 
 .hero {
@@ -98,6 +99,7 @@ color: #000000;
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  
 }
 
 .container-logo i {
@@ -124,7 +126,7 @@ color: #000000;
 }
 /* ************* NAVBAR ************* */
 .container-navbar {
-  background-color: var(--primary-color);
+  background-color: #fff;
 }
 
 .navbar {
@@ -147,12 +149,13 @@ color: #000000;
 .menu li {
   list-style: none;
   position: relative; /* Necesario para el posicionamiento absoluto del submenú */
+  
 }
 
 .menu a {
   text-decoration: none;
   font-size: 1.3rem;
-  color: var(--background-color);
+  color: #000000;
   font-weight: 600;
   position: relative;
 }
@@ -182,7 +185,7 @@ color: #000000;
   position: relative;
   display: flex;
   align-items: center;
-  border: 2px solid #fff;
+  border: 2px solid #000000;
   border-radius: 2rem;
   background-color: #fff;
   height: 4.4rem;

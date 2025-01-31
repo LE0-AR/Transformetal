@@ -1,0 +1,59 @@
+/* Contenedor de beneficios */
+.contenedor-beneficios {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 100px;
+    background-color: #f8f8f8;
+}
+/* Línea final */
+.linea-final {
+    width: 90%;
+    height: 2px;
+    background-color: #777;
+    margin: 20px auto;
+}
+
+/* Cada beneficio */
+.beneficio {
+    width: 30%;
+    padding: 20px;
+    background-color: #efefef;
+    border-radius: 8px;
+}
+
+/* Iconos */
+.beneficio-icono img{
+   width: 100px;
+   height: 100px;
+}
+
+/* Títulos */
+.beneficio-titulo {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff6600;
+    margin-top: 10px;
+}
+
+/* Texto */
+.beneficio-texto {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Contenedor de imágenes */
+.contenedor-imagenes {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Espacio para imágenes */
+.imagen-placeholder {
+    width: 30%;
+    height: 150px;
+    background-color: #d3d3d3;
+    border-radius: 8px;
+}

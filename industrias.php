@@ -16,150 +16,149 @@
 
   <body>
     <!--Header Inicio-->
-    <header id="header">
+		<header id="header">
 
-      <div class="container-hero  position: fixed;">
-        <div class="container hero">
-          <div class="customer-support">
-            <i class=""></i>
-            <div class="content-customer-support">
-              <span class="text"></span>
-              <span class="number"></span>
-            </div>
-          </div>
-          <div class="container-logo">
-            <a href="./">
-              <i><img src="assets/img/icon/logo.png" alt="100px" style="width: 70px; height: 70px; "></i>
-              <h1 class="logo"><a href="./" class="load-link">TRANSFORMETAL</a></h1>
-            </a>
-          </div>
-          <div class="container-user">
-            <i class=""></i>
-            <i class=""></i>
-            <div class="">
-              <span class="text"></span>
-              <span class="number"></span>
-            </div>
-          </div>
-        </div>
-      </div>
+			<div class="container-hero  position: fixed;">
+				<div class="container hero">
+					<div class="customer-support">
+						<i class=""></i>
+						<div class="content-customer-support">
+							<span class="text"></span>
+							<span class="number"></span>
+						</div>
+					</div>
+					<div class="container-logo">
+						<a href="./">
+							<i><img src="assets/img/icon/logo.png" alt="100px" style="width: 70px; height: 70px; "></i>
+							<h1 class="logo"><a href="./" class="load-link">TRANSFORMETAL</a></h1>
+						</a>
+					</div>
+					<div class="container-user">
+						<i class=""></i>
+						<i class=""></i>
+						<div class="">
+							<span class="text"></span>
+							<span class="number"></span>
+						</div>
+					</div>
+				</div>
+			</div>
 
-      <!--MEnu Inicio-->
-      <div class="container-navbar">
-        <nav class="navbar container">
-          <input type="checkbox" id="check">
-          <ul class="menu"><!--Menu-->
-            <li id="nav2">
-              <a href="#" id="productos-link" class="TituloMenu">Productos</a>
-              <ul class="nav-menu" id="productos-submenu">
-                <li>
-                  <a href="#" class="main-category">Telecomunicaciones e IT<i class="fa-sharp fa-solid fa-arrow-right arrow-icon"></i></a>
-                  <ul class="nav-submenu ">
-                    <li><a href="productos.php">Gabinetes</a></li>
-                    <li><a href="productos.php#section2">Racks</a></li>
-                    <li><a href="productos.php#section9">Bandejas</a></li>
-                    <li><a href="productos.php#section3-1">Riel</a></li>
-                    <li><a href="productos.php#section4-1">Escalerilla</a></li>
-                    <li><a href="productos.php#section85">Planta Externa</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#" class="main-category">Planta Externa y Electricidad<i class="fa-sharp fa-solid fa-arrow-right arrow-icon"></i></a>
-                  <ul class="nav-submenu plantaExterna">
-                    <li><a href="productos.php">Gabinetes</a></li>
-                    <li><a href="productos.php#section50">Cajas</a></li>
-                    <li><a href="productos.php#section70">Herrajes</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#" class="main-category">Exhibición y Almacenes <i class="fa-sharp fa-solid fa-arrow-right arrow-icon"></i></a>
-                  <ul class="nav-submenu Almacenes">
-                    <li><a href="#">Góndolas </a></li>
-                    <li><a href="#">Estanterías </a></li>
-                    <li><a href="#">Racks Industrial</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#" class="main-category">Arquitectónicos y Panales Decorativos <i class="fa-sharp fa-solid fa-arrow-right arrow-icon"></i></a>
-                  <ul class="nav-submenu paneles">
-                    <li><a href="#">Paneles decorativos</a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#" class="main-category">Mobiliario Urbano <i class="fa-sharp fa-solid fa-arrow-right arrow-icon"></i></a>
-                  <ul class="nav-submenu Mobiliario">
-                    <li><a href="#">Basureros</a></li>
-                    <li><a href="#">Racks</a></li>
-                    <li><a href="#">Bancas</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#" class="main-category">Torres <i class="fa-sharp fa-solid fa-arrow-right arrow-icon"></i></a>
-                  <ul class="nav-submenu TorresIrios">
-                    <li><a href="productos.php#section25">Torres Arriostradas y Accesorios</a></li>
-                    <li><a href="#">Sistemas de puestas a tierra</a></li>
-                    <li><a href="#">Balizas</a></li>
-                    <li><a href="#">Interconexión a tierra </a></li>
-                    <li><a href="#">Soportes y Herrajes</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
+			<!--MEnu Inicio-->
+			<div class="container-navbar">
+				<nav class="navbar container">
+					<input type="checkbox" id="check">
+					<ul class="menu"><!--Menu-->
+						<li id="nav2">
+							<a href="#" id="productos-link" class="TituloMenu">Productos</a>
+							<ul class="nav-menu" id="productos-submenu">
+								<li>
+									<a href="#" class="main-category">Telecomunicaciones e IT<i class="fa-sharp fa-solid fa-arrow-right arrow-icon"></i></a>
+									<ul class="nav-submenu ">
+										<li><a href="productos.php">Gabinetes</a></li>
+										<li><a href="productos.php#section2">Racks</a></li>
+										<li><a href="productos.php#section9">Bandejas</a></li>
+										<li><a href="productos.php#section3-1">Riel</a></li>
+										<li><a href="productos.php#section4-1">Escalerilla</a></li>
+										<li><a href="productos.php#section85">Planta Externa</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="#" class="main-category">Planta Externa y Electricidad<i class="fa-sharp fa-solid fa-arrow-right arrow-icon"></i></a>
+									<ul class="nav-submenu plantaExterna">
+										<li><a href="productos.php">Gabinetes</a></li>
+										<li><a href="productos.php#section50">Cajas</a></li>
+										<li><a href="productos.php#section70">Herrajes</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="#" class="main-category">Exhibición y Almacenes <i class="fa-sharp fa-solid fa-arrow-right arrow-icon"></i></a>
+									<ul class="nav-submenu Almacenes">
+										<li><a href="productos.php#Gondolas">Góndolas </a></li>
+										<li><a href="productos.php#Estanteria">Estanterías </a></li>
+										<li><a href="productos.php#RackIndustrial">Racks Industrial</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="#" class="main-category">Arquitectónicos y Panales Decorativos <i class="fa-sharp fa-solid fa-arrow-right arrow-icon"></i></a>
+									<ul class="nav-submenu paneles">
+										<li><a href="productos.php#Arquitectonicos">Paneles decorativos</a></li>
+										<li><a href="#"></a></li>
+										<li><a href="#"></a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="#" class="main-category">Mobiliario Urbano <i class="fa-sharp fa-solid fa-arrow-right arrow-icon"></i></a>
+									<ul class="nav-submenu Mobiliario">
+										<li><a href="productos.php#Mobiliario">Basureros</a></li>
+										<li><a href="#"></a></li>
+										<li><a href="#"></a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="#" class="main-category">Torres <i class="fa-sharp fa-solid fa-arrow-right arrow-icon"></i></a>
+									<ul class="nav-submenu TorresIrios">
+										<li><a href="productos.php#section25">Torres Arriostradas y Accesorios</a></li>
+										<li><a href="productos.php#section14">Sistemas de puestas a tierra</a></li>
+										<li><a href="#">Balizas</a></li>
+										<li><a href="#">Interconexión a tierra </a></li>
+										<li><a href="#">Soportes y Herrajes</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
 
-            <!--menu2-->
+						<!--menu2-->
 
-            <!--menu2-->
-            <!--fin menu-->
-            <li id="nav2">
-              <a href="#" id="industrias-link" class="TituloMenu">Industrias</a>
-              <ul class="nav-menu" id="industrias-submenu">
-                <li><a href="industrias.php#telecom">Telecomunicaciones</a></li>
-                <li><a href="industrias.php#ele">Electricidad</a></li>
-                <li><a href="industrias.php#auto">Automatización</a></li>
-                <li><a href="industrias.php#urba">Urbanismo</a></li>
-                <li><a href="industrias.php#banca">Banca</a></li>
-                <li><a href="industrias.php#comercio">Comercio</a></li>
-                <li><a href="industrias.php#almace">Almacenamiento Industrial</a></li>
-                <li><a href="industrias.php#desarrollo">Desarrollo Inmobiliario</a></li>
-                <li><a href="industrias.php#aero">Aeroportuaria</a></li>
-                <li><a href="industrias.php#hospital">Hospitales</a></li>
-              </ul>
-            </li>
+						<!--menu2-->
+						<!--fin menu-->
+						<li id="nav2">
+							<a href="#" id="industrias-link" class="TituloMenu">Industrias</a>
+							<ul class="nav-menu" id="industrias-submenu">
+								<li><a href="industrias.php#telecom">Telecomunicaciones</a></li>
+								<li><a href="industrias.php#ele">Electricidad</a></li>
+								<li><a href="industrias.php#auto">Automatización</a></li>
+								<li><a href="industrias.php#urba">Urbanismo</a></li>
+								<li><a href="industrias.php#banca">Banca</a></li>
+								<li><a href="industrias.php#comercio">Comercio</a></li>
+								<li><a href="industrias.php#almace">Almacenamiento Industrial</a></li>
+								<li><a href="industrias.php#desarrollo">Desarrollo Inmobiliario</a></li>
+								<li><a href="industrias.php#aero">Aeroportuaria</a></li>
+								<li><a href="industrias.php#hospital">Hospitales</a></li>
+							</ul>
+						</li>
 
-            <li id="nav2">
-              <a href="maquinaria.php" id="servicios-link" class="TituloMenu">Maquinaria</a>
-            </li>
+						<li id="nav2">
+							<a href="maquinaria.php" id="servicios-link" class="TituloMenu">Maquinaria</a>
+						</li>
 
-            <li>
-              <a href="#" id="nosotros-link" class="TituloMenu">Nosotros</a>
-              <ul class="nav-menu" id="nosotros-submenu">
-                <li><a href="nosotros.php">Nosotros</a></li>
-                <li><a href="nosotros.php#staff">Equipo de gestión administrativa y comercial</a></li>
-                <li><a href="#">Planta de Transformetal</a></li>
-                <li><a href="#">Política de calidad</a></li>
-                <li><a href="#">Responsabilidad Social Empresarial</a></li>
-              </ul>
-            </li>
-            <li><a href="./contacto.php" class="TituloMenu">Contacto</a></li>
-            <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
-          </ul>
-          <!-- Barra de búsqueda actualizada -->
-          <form class="search-form" action="busqueda.php" method="get">
-            <input type="search" name="query" placeholder="Buscar..." required>
-            <button class="btn-search" type="submit">
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
-          </form>
+						<li>
+							<a href="#" id="nosotros-link" class="TituloMenu">Nosotros</a>
+							<ul class="nav-menu" id="nosotros-submenu">
+								<li><a href="nosotros.php">Nosotros</a></li>
+								<li><a href="nosotros.php#staff">Equipo de gestión administrativa y comercial</a></li>
+								<li><a href="#">Planta de Transformetal</a></li>
+								<li><a href="#">Política de calidad</a></li>
+								<li><a href="#">Responsabilidad Social Empresarial</a></li>
+							</ul>
+						</li>
+						<li><a href="./contacto.php" class="TituloMenu">Contacto</a></li>
+						<label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+					</ul>
+					<!-- Barra de búsqueda actualizada -->
+					<form class="search-form" action="busqueda.php" method="get">
+						<input type="search" name="query" placeholder="Buscar..." required>
+						<button class="btn-search" type="submit">
+							<i class="fa-solid fa-magnifying-glass"></i>
+						</button>
+					</form>
 
-          <!--<i class="fas fa-shopping-cart" style="color: #fff; font-size: 25px; cursor: pointer;"></i>-->
-          <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
-        </nav>
-      </div>
-      <!--menu fin -->
-    </header>
-
+					<!--<i class="fas fa-shopping-cart" style="color: #fff; font-size: 25px; cursor: pointer;"></i>-->
+					<label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+				</nav>
+			</div>
+			<!--menu fin -->
+		</header>
 
     <!--Contenido pricipal-->
 

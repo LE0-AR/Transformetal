@@ -31,7 +31,7 @@
 
 	<body>
 
-		<!--Header Inicio-->
+		<!--Header Inicio-->|
 		<header id="header">
 
 			<div class="container-hero  position: fixed;">
@@ -45,8 +45,8 @@
 					</div>
 					<div class="container-logo">
 						<a href="./">
-							<i><img src="assets/img/icon/logo.png" alt="100px" style="width: 70px; height: 70px; "></i>
-							<h1 class="logo"><a href="./" class="load-link">TRANSFORMETAL</a></h1>
+							<i><img src="assets/img/logotipo.png" alt="100px" style="width: 500px; height: 100px; "></i>
+							
 						</a>
 					</div>
 					<div class="container-user">
@@ -90,15 +90,15 @@
 								<li>
 									<a href="#" class="main-category">Exhibición y Almacenes <i class="fa-sharp fa-solid fa-arrow-right arrow-icon"></i></a>
 									<ul class="nav-submenu Almacenes">
-										<li><a href="#">Góndolas </a></li>
-										<li><a href="#">Estanterías </a></li>
-										<li><a href="#">Racks Industrial</a></li>
+										<li><a href="productos.php#Gondolas">Góndolas </a></li>
+										<li><a href="productos.php#Estanteria">Estanterías </a></li>
+										<li><a href="productos.php#RackIndustrial">Racks Industrial</a></li>
 									</ul>
 								</li>
 								<li>
 									<a href="#" class="main-category">Arquitectónicos y Panales Decorativos <i class="fa-sharp fa-solid fa-arrow-right arrow-icon"></i></a>
 									<ul class="nav-submenu paneles">
-										<li><a href="#">Paneles decorativos</a></li>
+										<li><a href="productos.php#Arquitectonicos">Paneles decorativos</a></li>
 										<li><a href="#"></a></li>
 										<li><a href="#"></a></li>
 									</ul>
@@ -106,16 +106,16 @@
 								<li>
 									<a href="#" class="main-category">Mobiliario Urbano <i class="fa-sharp fa-solid fa-arrow-right arrow-icon"></i></a>
 									<ul class="nav-submenu Mobiliario">
-										<li><a href="#">Basureros</a></li>
-										<li><a href="#">Racks</a></li>
-										<li><a href="#">Bancas</a></li>
+										<li><a href="productos.php#Mobiliario">Basureros</a></li>
+										<li><a href="#"></a></li>
+										<li><a href="#"></a></li>
 									</ul>
 								</li>
 								<li>
 									<a href="#" class="main-category">Torres <i class="fa-sharp fa-solid fa-arrow-right arrow-icon"></i></a>
 									<ul class="nav-submenu TorresIrios">
 										<li><a href="productos.php#section25">Torres Arriostradas y Accesorios</a></li>
-										<li><a href="#">Sistemas de puestas a tierra</a></li>
+										<li><a href="productos.php#section14">Sistemas de puestas a tierra</a></li>
 										<li><a href="#">Balizas</a></li>
 										<li><a href="#">Interconexión a tierra </a></li>
 										<li><a href="#">Soportes y Herrajes</a></li>
@@ -277,19 +277,19 @@
 
 
 					<div class="category-item">
-						<a href="productos.php#MobiliarUrbano">
+						<a href="productos.php#Mobiliario">
 							<img src="assets/img/icon/Mobiliario Urbano.png" alt="Mobiliario Urbano">
 							<p>Mobiliario Urbano</p>
 						</a>
 					</div>
 					<div class="category-item">
-						<a>
+						<a href="productos.php#Exhibicion"> 
 							<img src="assets/img/icon/Exhibición y Almacenes.png" alt="Exhibición y Almacenes">
 							<p>Exhibición y Almacenes</p>
 						</a>
 					</div>
 					<div class="category-item">
-						<a>
+						<a href="productos.php#Arquitectonicos">
 							<img src="assets/img/icon/Arquitectónicos y Panales Decorativos.png" alt="Arquitectónicos y Panales Decorativos">
 							<p>Arquitectónicos y Panales Decorativos</p>
 						</a>
@@ -399,7 +399,7 @@
 				<div class="chat-header-title">Asistente Transformetal</div>
 			</div>
 			<!-- Prueba de chatbot pedido de datos inicio -->
-			<form id="chat-form" method="POST" action="">
+			<form id="chat-form" method="POST" >
 				<div class="chat-mail">
 					<div class="row">
 						<div class="chat-description">
@@ -595,29 +595,6 @@
 				</div>
 			</div>
 		</footer>
-		<script>
-				document.getElementById("send-message").addEventListener("click", function(event) {
-				event.preventDefault(); // Evita el envío estándar del formulario
-
-				// Recoge los datos del formulario
-				var formData = new FormData(document.getElementById("chat-form"));
-
-				// Envía los datos a través de AJAX
-				var xhr = new XMLHttpRequest();
-				xhr.open("POST", "views/home.php", true); // Cambia "ruta_de_tu_php.php" por el nombre real de tu archivo PHP
-
-				xhr.onload = function() {
-					if (xhr.status === 200) {
-						// Limpia el campo del mensaje si se envía correctamente
-						document.getElementById("user-input").value = ""; 
-					}
-				};
-
-				xhr.send(formData); // Envía los datos del formulario
-			});
-
-
-		</script>
 
 		<script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
 		<script src="assets/js/menu.js"></script>
@@ -635,3 +612,33 @@
 	</body>
 
 	</html>
+<?php
+// filepath: /c:/xampp/htdocs/DW/transformetal/views/home.php
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $nombre = $_POST["nombre"] ?? '';
+    $email = $_POST["email"] ?? '';
+    $telefono = $_POST["telefono"] ?? '';
+    $mensaje = $_POST["user-input"] ?? '';
+
+    $destinatario = "ismaelaspuacr.5@gmail.com";
+    $asunto = "Nuevo mensaje de $email";
+
+    $contenido = "Nombre: $nombre \n";
+    $contenido .= "Email: $email \n";
+    $contenido .= "Teléfono: $telefono \n";
+    $contenido .= "Mensaje: $mensaje";
+
+    $header = "From: no-reply@transformetalgt.com\r\n";
+    $header .= "Reply-To: $email\r\n";
+    $header .= "X-Mailer: PHP/" . phpversion();
+
+    if (mail($destinatario, $asunto, $contenido, $header)) {
+        http_response_code(200);
+        echo "Correo enviado exitosamente.";
+    } else {
+        http_response_code(500);
+        echo "Error al enviar el correo.";
+    }
+}
+?>
