@@ -3,27 +3,23 @@
 	<html lang="en">
 
 	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="view-transition" content="same-origin">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>TRANSFORMETAL</title>
-		<link rel="stylesheet" href="assets/css/style.css" />
-		<!-- Icono  data-barba="container" data-barba-namespace="home"-->
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/videoIndex.css">
+		<link rel="stylesheet" href="assets/css/chatbot.css">
+		<link rel="stylesheet" href="assets/css/main.css">
+		<link rel="stylesheet" href="public/css/categoria.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 		<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-		<link rel="icon" type="image/png" href="assets/img/logo.png" />
+		<link rel="icon" type="image/png" href="assets/img/isotipo.png">
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 		<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
- 
-		<link
-			href="https://fonts.googleapis.com/css?family=Nunito:400,600,700"
-			rel="stylesheet" />
-
-		<link rel="stylesheet" href="assets/css/main.css">
-		<link rel="stylesheet" href="assets/css/videoIndex.css">
-
-		<!--<link rel="stylesheet" href="assets/css/bootstrap.min.css">-->
-		<link rel="stylesheet" href="assets/css/chatbot.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 	</head>
 	<style>
 
@@ -46,7 +42,7 @@
 					<div class="container-logo">
 						<a href="./">
 							<i><img src="assets/img/logotipo.png" alt="100px" style="width: 500px; height: 100px; "></i>
-							
+
 						</a>
 					</div>
 					<div class="container-user">
@@ -129,18 +125,12 @@
 						<!--menu2-->
 						<!--fin menu-->
 						<li id="nav2">
-							<a href="#" id="industrias-link" class="TituloMenu">Industrias</a>
+							<a href="#" id="industrias-link" class="TituloMenu">Sectores</a>
 							<ul class="nav-menu" id="industrias-submenu">
 								<li><a href="industrias.php#telecom">Telecomunicaciones</a></li>
-								<li><a href="industrias.php#ele">Electricidad</a></li>
-								<li><a href="industrias.php#auto">Automatización</a></li>
-								<li><a href="industrias.php#urba">Urbanismo</a></li>
-								<li><a href="industrias.php#banca">Banca</a></li>
-								<li><a href="industrias.php#comercio">Comercio</a></li>
-								<li><a href="industrias.php#almace">Almacenamiento Industrial</a></li>
-								<li><a href="industrias.php#desarrollo">Desarrollo Inmobiliario</a></li>
-								<li><a href="industrias.php#aero">Aeroportuaria</a></li>
-								<li><a href="industrias.php#hospital">Hospitales</a></li>
+								<li><a href="industrias.php#Electrico">Electricidad</a></li>
+								<li><a href="industrias.php#Mobiliario">Mobiliario Urbano</a></li>
+								<li><a href="industrias.php#Exhibicion">Exhibición y Almacenaje </a></li>
 							</ul>
 						</li>
 
@@ -177,210 +167,166 @@
 		</header>
 
 		<!--CArrusel-->
-		<section class="banner">
-			<strong>
-				<div class="slider" style="top: 130px;">
-					<div class="myslide active" onclick="window.location.href='nosotros.php';" style="background-image: url('assets/img/anuncio/banner_.jpg');">
-						<div class="content-banner">
-							<p>Transformetal Arquitectura Metalmecánica</p>
-							<h2>Fabricación, corte CNC láser, doblado, soldado, acabados de productos metalmecánicos en general.</h2>
-							<a href="#">Leer más</a>
-						</div>
-					</div>
-					<div class="myslide active" onclick="window.location.href='model/Intelcos.php';" style="background-image: url('assets/img/anuncio/Anuncio1Slider.png');">
-						<div class="content-banner">
-							<p>Metalmecánica para la industria de las Telcos e IT</p>
-							<h2>Soluciones micro data center para salas IT, ambientes indoor, y nodos de telecomunicaciones, ambientes outdoors.</h2>
-							<a href="#">Leer más</a>
-						</div>
-					</div>
-
-					<div class="myslide active" onclick="window.location.href='model/Inelectrica.php';" style="background-image: url('assets/img/anuncio/anuncio2.png'); ">
-						<img src="" alt="">
-						<div class="content-banner">
-							<p>Metalmecánica para la Industria Eléctrica</p>
-							<h2>Fabricación de gabinetes metálicos varios tamaños, canaletas y escalerillas de cables, para instalaciones eléctricas y automatización.</h2>
-							<a href="#">Leer más</a>
-
-						</div>
-					</div>
-					<div class="myslide active" onclick="window.location.href='model/InExi.php';" style="background-image: url('assets/img/anuncio/anuncio3.png');">
-						<div class="content-banner">
-							<p>Metalmecánica para la Industria Almacenaje y Exhibidores</p>
-							<h2>Fabricamos Racks livianos, medianos e industriales; Gondolas y exhibidores para retailers.</h2>
-							<a href="#">Leer más</a>
-						</div>
-					</div>
-					<div class="myslide active" onclick="window.location.href='model/InMobiliaria.php';" style="background-image: url('assets/img/anuncio/anuncio4.jpg');">
-						<div class="content-banner">
-							<p>Metalmecánica para la Industria Inmobiliaria </p>
-							<h2>Fabricamos paneles decorativos metálicos y productos relacionados, diseños arquitectónicos personalizados, con corte laser. </h2>
-							<a href="#">Leer más</a>
-						</div>
-					</div>
-					<div class="myslide active" onclick="window.location.href='model/Inurba.php';" style="background-image: url('assets/img/anuncio/anuncio5.jpg');">
-						<div class="content-banner">
-							<p> Metalmecánica industria: Industria Mobiliario Urbano</p>
-							<h2>Fabricamos corte láser, paneles decorativos metálicos y productos relacionados, diseños arquitectónicos personalizados.</h2>
-							<a href="#">Leer más</a>
-						</div>
-					</div>
-					<div class="myslide active" onclick="window.location.href='model/Intorre.php';" style="background-image: url('assets/img/anuncio/anuncio6.jpg');">
-						<div class="content-banner">
-							<p>Metalmecánica torres y soporte de sitios</p>
-
-							<h2> Fabricación e instalaciones torres arriostradas</h2>
-							<a href="#">Leer más</a>
-						</div>
-					</div>
+		<section>
+			<div class="slider">
+				<div class="myslide active" onclick="window.location.href='nosotros.php';" style="background-image: url('assets/img/banner/banner1.png');">
 
 				</div>
-				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				<div class="myslide active" onclick="window.location.href='model/Intelcos.php';" style="background-image: url('assets/img/banner/banner2.png');">
 
-				<center>
-					<div class="dotsbox">
-						<span class="dot" onclick="currentSlide(1)"></span>
-						<span class="dot" onclick="currentSlide(2)"></span>
-						<span class="dot" onclick="currentSlide(3)"></span>
-						<span class="dot" onclick="currentSlide(4)"></span>
-						<span class="dot" onclick="currentSlide(5)"></span>
-						<span class="dot" onclick="currentSlide(6)"></span>
-						<span class="dot" onclick="currentSlide(7)"></span>
-					</div>
-				</center>
+				</div>
+
+				<div class="myslide active" onclick="window.location.href='model/Inelectrica.php';" style="background-image: url('assets/img/banner/banner3.png'); ">
+
+				</div>
+				<div class="myslide active" onclick="window.location.href='model/InExi.php';" style="background-image: url('assets/img/banner/banner4.png');">
+
+				</div>
+				<div class="myslide active" onclick="window.location.href='model/InMobiliaria.php';" style="background-image: url('assets/img/banner/banner5.png');">
+
+				</div>
+
+				<div class="myslide active" onclick="window.location.href='model/Intorre.php';" style="background-image: url('assets/img/anuncio/anuncio6.jpg');">
+
+				</div>
+
+			</div>
+
+			<center>
+				<div class="dotsbox" id="dotsbox">
+					<span class="dot" onclick="currentSlide(1)"></span>
+					<span class="dot" onclick="currentSlide(2)"></span>
+					<span class="dot" onclick="currentSlide(3)"></span>
+					<span class="dot" onclick="currentSlide(4)"></span>
+					<span class="dot" onclick="currentSlide(5)"></span>
+					<span class="dot" onclick="currentSlide(6)"></span>
+				</div>
+			</center>
 		</section>
 
-		<!--Icon-->
-		<main class="main-content">
-			<section class="categories-section">
-				<h2 class="heading-1">Categorías</h2>
-				<div class="categories-container">
-					<div class="category-item">
-						<a href="productos.php">
-							<img src="assets/img/icon/IT y Telecomunicaciones listo.png" alt="IT y Telecomunicaciones">
-							<p>IT y Telecomunicaciones</p>
-						</a>
-					</div>
-					<div class="category-item">
-						<a href="productos.php#section50">
-							<img src="assets/img/icon/PlantaExterna y Electricidad.png" alt="Planta Externa y Electricidad">
-							<p>Planta Externa y Electricidad</p>
-						</a>
-					</div>
-					<div class="category-item">
-						<a href="productos.php#section25"><!--onclick="window.location.href='';"-->
-							<img src="assets/img/icon/subcategorias/subca/torreSeccion1_.png" alt="Metalmecánica">
-							<p>Torrres arriostrada</p>
-						</a>
-					</div>
-
-
-					<div class="category-item">
-						<a href="productos.php#Mobiliario">
-							<img src="assets/img/icon/Mobiliario Urbano.png" alt="Mobiliario Urbano">
-							<p>Mobiliario Urbano</p>
-						</a>
-					</div>
-					<div class="category-item">
-						<a href="productos.php#Exhibicion"> 
-							<img src="assets/img/icon/Exhibición y Almacenes.png" alt="Exhibición y Almacenes">
-							<p>Exhibición y Almacenes</p>
-						</a>
-					</div>
-					<div class="category-item">
-						<a href="productos.php#Arquitectonicos">
-							<img src="assets/img/icon/Arquitectónicos y Panales Decorativos.png" alt="Arquitectónicos y Panales Decorativos">
-							<p>Arquitectónicos y Panales Decorativos</p>
-						</a>
-					</div>
-				</div>
-
-			</section>
-
-
-		</main>
-
-		<!--Inico de videos-->
-		<div class="videos">
-			<h1 class="titlevideo">De la Idea a la Realidad</h1>
-
-			<div class="video-grid">
-				<!-- Video 1 -->
-				<div class="video-item" data-video="https://www.youtube.com/embed/ArChIrlWPjw?si=vMPkK81VQR-oWUll">
-					<div class="video-overlay">
-						<i class="ri-play-circle-fill"></i>
-					</div>
-					<img src="assets/img/servicio/video/Cabina_de_pintura.png" alt="Titulo1">
-					<p>Cabina de pintura</p>
-				</div>
-				<!-- Video 2 -->
-				<div class="video-item" data-video="https://www.youtube.com/embed/90Dr-9_qE3E?si=efthB_x-H-gbVIMg">
-					<div class="video-overlay">
-						<i class="ri-play-circle-fill"></i>
-					</div>
-					<img src="assets/img/servicio/video/POS.png" alt="Titulo2">
-					<p>Base de POS</p>
-				</div>
-
-				<!-- Video 1 -->
-				<div class="video-item" data-video="https://www.youtube.com/embed/XGQ4KM5NulQ?si=tsErW22NJ4KxTGUv">
-					<div class="video-overlay">
-						<i class="ri-play-circle-fill"></i>
-					</div>
-					<img src="assets/img/servicio/video/Relojes.jpg" alt="Titulo3">
-					<p>Fabricación de Relojes</p>
-				</div>
-				<!-- Video 2 -->
-				<div class="video-item" data-video="https://www.youtube.com/embed/ccKjxGZ8tEE?si=_xBsTId6TzmNfCrN">
-					<div class="video-overlay">
-						<i class="ri-play-circle-fill"></i>
-					</div>
-					<img src="assets/img/product/bandejas/Bandeja de 19 PLG x XUR4.png" alt="Titulo4">
-					<p>Bnadeja Metálicas  </p>
-				</div>
-
-				<!-- Video 1 -->
-				<div class="video-item" data-video="https://www.youtube.com/embed/a-nNf6wlu7g?si=l5xcdqsSSjhgjU2h">
-					<div class="video-overlay">
-						<i class="ri-play-circle-fill"></i>
-					</div>
-					<img src="assets/img/product/herrajes/SoporteTerminacionTrifisica1.png" alt="Titulo5">
-					<p>Terminación Trifásica</p>
-				</div>
-				<!-- Video 2 -->
-				<div class="video-item" data-video="https://www.youtube.com/embed/dHd4ClMroZQ?si=_59FAG4tDp6y-fzk">
-					<div class="video-overlay">
-						<i class="ri-play-circle-fill"></i>
-					</div>
-					<img src="assets/img/product/Riel/RIEL%20BEIGE%200.125plg%2012.PNG" alt="Titulo6">
-					<p>Riel Metálico </p>
-				</div>
-
+		<!---Productos mas vendido Inicio-->
+		<section class="productos-mas-vendidos">
+			<div class="Cinta">
+				<h2>PRODUCTOS MÁS VENDIDOS</h2>
 			</div>
-
-			<div id="videoModal">
-				<div class="modal-content">
-					<span class="close">&times;</span>
-					<iframe id="videoFrame" src="" allow="autoplay; fullscreen"></iframe>
+			<div class="productos">
+				<div class="producto">
+					<img src="./assets/img/Section2Home/1-microdata.png"" alt=" Microdata Center">
+					<h3>MICRO DATA CENTER</h3>
+					<a href="#" class="VerProduct">
+						<p>Ver producto</p>
+					</a>
+				</div>
+				<div class="producto">
+					<img src="./assets/img/Section2Home/2-bandeja.png" alt="Bandeja Metálica" id="bandej">
+					<h3>BANDEJA METÁLICA</h3>
+					<a href="#" class="VerProduct">
+						<p>Ver producto</p>
+					</a>
+				</div>
+				<div class="producto">
+					<img src="./assets/img/Section2Home/3-rieles.png" alt="Rieles Metálicos">
+					<h3>RIELES METÁLICOS</h3>
+					<a href="#" class="VerProduct">
+						<p>Ver producto</p>
+					</a>
+				</div>
+				<div class="producto">
+					<img src="./assets/img/Section2Home/4-escalerilla.png" alt="Rieles Metálicos">
+					<h3>ESCALERILLAS</h3>
+					<a href="#" class="VerProduct">
+						<p>Ver producto</p>
+					</a>
+				</div>
+				<div class="producto">
+					<img src="./assets/img/Section2Home/5-caja.png" alt="Rieles Metálicos">
+					<h3>CAJAS METÁLICAS </h3>
+					<a href="#" class="VerProduct">
+						<p>Ver producto</p>
+					</a>
+				</div>
+				<div class="producto">
+					<img src="./assets/img/Section2Home/6-torres.png" alt="Rieles Metálicos">
+					<h3>TORRE ARRIOSTRADA</h3>
+					<a href="#" class="VerProduct">
+						<p>Ver producto</p>
+					</a>
 				</div>
 			</div>
-		</div>
+		</section>
+		<!--Producto mas vendido Fin-->
 
-		<!--Fin de videos-->
 
-		<!--Mas sobre nosotros-->
-		<div class="about-section">
+		<!--Inico de Acerca-->
+		<section class="about-section">
+			<img src="./assets/img/banner/soldador2.png" alt="">
 			<div class="content">
-				<h1>Sobre Transformetal</h1>
-				<p>Somos una empresa cien por ciento guatemalteca, que fabrica y suministra productos de metalmecánica, de alta calidad. Que está integrado por un gran equipo especializado, que utiliza técnicas basadas en buenas prácticas aplicadas a nivel internacional que permitan precisión, calidad y cumplimiento. Además, contamos con maquinaria a la vanguardia, materia prima de alta calidad. Garantizando la satisfacción del cliente.
-					<a href="nosotros.php" class="learn-more">Leer más</a>
+				<h1>ACERCA DE NOSOTROS</h1>
+				<p>
+					Somos una empresa cien por ciento guatemalteca, que fabrica y suministra productos de metalmecánica de alta calidad. Estamos integrados por un gran equipo especializado, que utiliza técnicas basadas en buenas prácticas aplicadas a nivel internacional que permiten precisión, calidad y cumplimiento. Además, contamos con maquinaria a la vanguardia y materia prima de alta calidad que garantiza la satisfacción del cliente.
 				</p>
-
+				<a href="#" class="VerProduct">
+					<p>Ver producto</p>
+				</a>
 			</div>
-		</div>
 
-<!--chatbot Inicio-->
+		</section>
+		<!--acerca-->
+
+		<!--Seccion del videos Inicio-->
+		<section class="video-section">
+			<div class="ContenVideo">
+				<div class="VideoTitulo">
+					<h2>Proceso de fabricación</h2>
+				</div>
+			</div>
+			<!-- Video incrustado de YouTube -->
+			<div class="video-container">
+				<iframe
+					src="https://www.youtube.com/embed/3P1MfIBrbR4?autoplay=1&rel=0&modestbranding=1&showinfo=0">
+				</iframe>
+			</div>
+		</section>
+		<!--Seccion del videos FIn -->
+
+		<!--Seccion del form Inicio--->
+		<section class="contact-container">
+			<div class="VideoTitulo">
+				<h2>Proceso de fabricación</h2>
+			</div>
+			<form id="contact-form" class="contact-forms">
+
+				<div class="contact-input-group">
+					<label for="nombres">Nombres</label>
+					<input type="text" id="nombres" placeholder="Escriba un nombre">
+
+					<label for="apellidos">Apellidos</label>
+					<input type="text" id="apellidos" placeholder="Escriba un apellido">
+				</div>
+
+				<div class="contact-input-group">
+					<label for="correo">Correo</label>
+					<input type="email" id="correo" placeholder="Escriba un correo electrónico">
+
+					<label for="telefono">Teléfono</label>
+					<input type="number" id="telefono" placeholder="Escriba un teléfono">
+				</div>
+
+				<div class="contact-input-group contact-full-width">
+					<label for="proyecto">Cuéntenos un poco sobre su proyecto</label>
+					<textarea id="proyecto" placeholder="Escriba un correo electrónico"></textarea>
+				</div>
+
+				<a href="#" class="VerProduct">
+					<p>Ver producto</p>
+				</a>
+			</form>
+
+			<!--Seccion del videos FIn -->
+		</section>
+
+		<!--Seccion del form Fin-->
+		<!--chatbot Inicio-->
 		<!--chatbot de whatsapp-->
 		<div class="message-wrapper">
 			<div class="message-toggle">
@@ -392,14 +338,14 @@
 		</div>
 		<!--whatsapp Fin-->
 
-	<!--Chat Incio-->
+		<!--Chat Incio-->
 		<!-- Chat bot UI start -->
 		<div class="chat-screen">
 			<div class="chat-header">
 				<div class="chat-header-title">Asistente Transformetal</div>
 			</div>
 			<!-- Prueba de chatbot pedido de datos inicio -->
-			<form id="chat-form" method="POST" >
+			<form id="chat-form" method="POST">
 				<div class="chat-mail">
 					<div class="row">
 						<div class="chat-description">
@@ -522,79 +468,15 @@
 			</svg>
 		</div>
 		<!-- Chat Bot UI Ends -->
-	<!--Chat FIn-->
+		<!--Chat FIn-->
 
-<!--Chatbot Fin-->
+		<!--Chatbot Fin-->
 
 		<div id="loader">
 			<div class="spinner"></div>
 		</div>
 
-		<footer class="footer" id="footer">
-			<div class="container container-footer">
 
-				<div class="menu-footer" style=" width:100%;">
-					<div class="contact-info">
-						<p class="title-footer">Información de Contacto</p>
-						<ul class="hidden">
-							<li><a href="tel:+50237673973">Teléfono: +502 3767-3973</a></li>
-							<li><a href="tel:+50256952544">Teléfono: +502 5695-2544</a></li>
-							<li><a href="mailto:carlos.yoc@transformetalgt.com">Correo: carlos.yoc@transformetalgt.com</a></li>
-							<li><a href="mailto:elisa.martin@transformetalgt.com">Correo: elisa.martin@transformetalgt.com</a></li>
-						</ul>
-						<div class="social-icons">
-							<span class="facebook">
-								<i><a class="fa-brands fa-facebook-f" href="https://www.facebook.com/profile.php?id=61556439127740&locale=es_LA" target="_blank"></a></i>
-							</span>
-							<span class="youtube">
-								<i><a class="fa-brands fa-youtube" href="https://www.youtube.com/channel/UCu9aObUWwedajGJRAyMq5jg" target="_blank"></a></i>
-							</span>
-							<span class="pinterest">
-								<i><a class="fa-brands fa-pinterest-p" href="https://www.pinterest.com/TransformetalGT/" target="_blank"></a></i>
-							</span>
-							<span class="instagram">
-								<i><a class="fa-brands fa-instagram" href="https://www.instagram.com/transformetalgt/?hl=es-es" target="_blank"></a></i>
-							</span>
-						</div>
-					</div>
-
-					<div class="information">
-						<p class="title-footer">Información</p>
-						<ul class="hidden">
-							<li><a href="nosotros.php">Acerca de Nosotros</a></li>
-							<li><a href="nosotros.php#nosotros">Información</a></li>
-							<li><a href="views/politica.php">Políticas de Privacidad</a></li>
-							<li><a href="views/terminos.php">Términos y Condiciones</a></li>
-							<li><a href="contacto.php">Contáctanos</a></li>
-						</ul>
-					</div>
-
-					<div class="newsletter">
-						<p class="title-footer" style="color: #fff;"> TRANSFORMETAL</p>
-
-						<div class="content" style="text-align:justify;">
-							<p>
-
-								Transformetal es una empresa líder en la industria metalmecánica con más de 27 años de experiencia,
-								comprometida con la innovación, calidad y excelencia. Transformamos materia prima metálica en productos
-								de alta precisión utilizando tecnología CNC y procesos avanzados, siempre adaptándonos a las necesidades
-								específicas de nuestros clientes. Nuestro enfoque personalizado y equipo altamente calificado nos permite
-								generar valor económico, social y ambiental en cada proyecto que emprendemos. Innovación y calidad en cada
-								detalle, somos su mejor elección en metalmecánica.
-							</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="copyright" style="color: #ffffff;">
-					<p>
-						Transformetal 2024
-					</p>
-
-					<img src="assets/img/icon.png" alt="" style="width: 50px; height: 50px;">
-				</div>
-			</div>
-		</footer>
 
 		<script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
 		<script src="assets/js/menu.js"></script>
@@ -606,39 +488,37 @@
 		<script src="assets/js/select2.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 		<script src="assets/js/chat.js"></script>
-		<script src="assets/js/footer.js"></script>
-		<script src="assets/js/video.js" ></script>
-		
+		<script src="assets/js/video.js"></script>
+
 	</body>
 
 	</html>
-<?php
-// filepath: /c:/xampp/htdocs/DW/transformetal/views/home.php
+	<?php
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $nombre = $_POST["nombre"] ?? '';
-    $email = $_POST["email"] ?? '';
-    $telefono = $_POST["telefono"] ?? '';
-    $mensaje = $_POST["user-input"] ?? '';
+	if ($_SERVER["REQUEST_METHOD"] == "POST") {
+		$nombre = $_POST["nombre"] ?? '';
+		$email = $_POST["email"] ?? '';
+		$telefono = $_POST["telefono"] ?? '';
+		$mensaje = $_POST["user-input"] ?? '';
 
-    $destinatario = "ismaelaspuacr.5@gmail.com";
-    $asunto = "Nuevo mensaje de $email";
+		$destinatario = "ismaelaspuacr.5@gmail.com";
+		$asunto = "Nuevo mensaje de $email";
 
-    $contenido = "Nombre: $nombre \n";
-    $contenido .= "Email: $email \n";
-    $contenido .= "Teléfono: $telefono \n";
-    $contenido .= "Mensaje: $mensaje";
+		$contenido = "Nombre: $nombre \n";
+		$contenido .= "Email: $email \n";
+		$contenido .= "Teléfono: $telefono \n";
+		$contenido .= "Mensaje: $mensaje";
 
-    $header = "From: no-reply@transformetalgt.com\r\n";
-    $header .= "Reply-To: $email\r\n";
-    $header .= "X-Mailer: PHP/" . phpversion();
+		$header = "From: no-reply@transformetalgt.com\r\n";
+		$header .= "Reply-To: $email\r\n";
+		$header .= "X-Mailer: PHP/" . phpversion();
 
-    if (mail($destinatario, $asunto, $contenido, $header)) {
-        http_response_code(200);
-        echo "Correo enviado exitosamente.";
-    } else {
-        http_response_code(500);
-        echo "Error al enviar el correo.";
-    }
-}
-?>
+		if (mail($destinatario, $asunto, $contenido, $header)) {
+			http_response_code(200);
+			echo "Correo enviado exitosamente.";
+		} else {
+			http_response_code(500);
+			echo "Error al enviar el correo.";
+		}
+	}
+	?>
