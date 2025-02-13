@@ -7,12 +7,16 @@
   <title>TRANSFORMETAL</title>
   <link rel="stylesheet" href="assets/css/estiloContacto.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <link rel="icon" type="image/png" href="assets/img/logo.png" />
   <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <link rel="stylesheet" href="assets/css/chatbot.css">
 </head>
 <style>
@@ -40,7 +44,7 @@
 
 <body>
 
-		<!--Header Inicio-->
+		<!--Header Inicio-->|
 		<header id="header">
 
 			<div class="container-hero  position: fixed;">
@@ -54,8 +58,8 @@
 					</div>
 					<div class="container-logo">
 						<a href="./">
-							<i><img src="assets/img/icon/logo.png" alt="100px" style="width: 70px; height: 70px; "></i>
-							<h1 class="logo"><a href="./" class="load-link">TRANSFORMETAL</a></h1>
+							<i><img src="assets/img/logotipo.png" alt="100px" style="width: 500px; height: 100px; "></i>
+
 						</a>
 					</div>
 					<div class="container-user">
@@ -138,18 +142,12 @@
 						<!--menu2-->
 						<!--fin menu-->
 						<li id="nav2">
-							<a href="#" id="industrias-link" class="TituloMenu">Industrias</a>
+							<a href="#" id="industrias-link" class="TituloMenu">Sectores</a>
 							<ul class="nav-menu" id="industrias-submenu">
 								<li><a href="industrias.php#telecom">Telecomunicaciones</a></li>
-								<li><a href="industrias.php#ele">Electricidad</a></li>
-								<li><a href="industrias.php#auto">Automatización</a></li>
-								<li><a href="industrias.php#urba">Urbanismo</a></li>
-								<li><a href="industrias.php#banca">Banca</a></li>
-								<li><a href="industrias.php#comercio">Comercio</a></li>
-								<li><a href="industrias.php#almace">Almacenamiento Industrial</a></li>
-								<li><a href="industrias.php#desarrollo">Desarrollo Inmobiliario</a></li>
-								<li><a href="industrias.php#aero">Aeroportuaria</a></li>
-								<li><a href="industrias.php#hospital">Hospitales</a></li>
+								<li><a href="industrias.php#Electrico">Electricidad</a></li>
+								<li><a href="industrias.php#Mobiliario">Mobiliario Urbano</a></li>
+								<li><a href="industrias.php#Exhibicion">Exhibición y Almacenaje </a></li>
 							</ul>
 						</li>
 
@@ -184,6 +182,7 @@
 			</div>
 			<!--menu fin -->
 		</header>
+
 
 
   <main data-barba="container">
@@ -366,71 +365,51 @@
   <!--Chatbot Fin-->
 
   <!--Footer-->
-  <footer class="footer" id="footer">
-    <div class="container container-footer">
 
-      <div class="menu-footer" style=" width:100%;">
-        <div class="contact-info">
-          <p class="title-footer">Información de Contacto</p>
-          <ul class="hidden">
-            <li><a href="tel:+50237673973">Teléfono: +502 3767-3973</a></li>
-            <li><a href="tel:+50256952444">Teléfono: +502 5695-2444</a></li>
-            <li><a href="mailto:carlos.yoc@transformetalgt.com">Correo: carlos.yoc@transformetalgt.com</a></li>
-            <li><a href="mailto:elisa.martin@transformetalgt.com">Correo: elisa.martin@transformetalgt.com</a></li>
-          </ul>
-          <div class="social-icons">
-            <span class="facebook">
-              <i><a class="fa-brands fa-facebook-f" href="https://www.facebook.com/profile.php?id=61556439127740&locale=es_LA" target="_blank"></a></i>
-            </span>
-            <span class="youtube">
-              <i><a class="fa-brands fa-youtube" href="https://www.youtube.com/channel/UCu9aObUWwedajGJRAyMq5jg" target="_blank"></a></i>
-            </span>
-            <span class="pinterest">
-              <i><a class="fa-brands fa-pinterest-p" href="https://www.pinterest.com/TransformetalGT/" target="_blank"></a></i>
-            </span>
-            <span class="instagram">
-              <i><a class="fa-brands fa-instagram" href="https://www.instagram.com/transformetalgt/?hl=es-es" target="_blank"></a></i>
-            </span>
-          </div>
-        </div>
+  <footer class="footer-container">
+			<div class="footer-content">
+				<div class="footer-logo">
+					<img src="./assets/img/Logo_Azul.png" alt="Transformetal Logo">
+				</div>
+				<p class="footer-description">
+					Transformetal es una empresa líder en metalmecánica, especializada en la transformación y
+					fabricación de productos metálicos de alta calidad.
+				</p>
+				<div class="footer-icons">
+					<a href="#" class="social-icon facebook" style=" background: url('./assets/img/icon/footer/fb.png') no-repeat center/cover;"></a>
+					<a href="#" class="social-icon whatsapp" style=" background: url('./assets/img/icon/footer/wsp.png') no-repeat center/cover;"></a>
+					<a href="#" class="social-icon instagram" style=" background: url('./assets/img/icon/footer/ig.png') no-repeat center/cover;"></a>
+					<a href="#" class="social-icon youtube" style=" background: url('./assets/img/icon/footer/yt.png') no-repeat center/cover;"></a>
+					<a href="tel:37673973" class="contact-icon phone">3767-3973 / 5695-2444</a>
+					<a href="mailto:contacto@transformetalgt.com" class="contact-icon email">contacto@transformetalgt.com</a>
+				</div>
+			</div>
+			<style>
+				.contact-icon.phone::before {
+					content: "";
+					display: inline-block;
+					width: 40px;
+					height: 40px;
+					background-image: url('./assets/img/icon/footer/cel.png');
+					background-size: cover;
+					margin-right: 5px;
+				}
 
-        <div class="information">
-          <p class="title-footer">Información</p>
-          <ul class="hidden">
-            <li><a href="nosotros.php">Acerca de Nosotros</a></li>
-            <li><a href="nosotros.php#nosotros">Información</a></li>
-            <li><a href="views/politica.php">Políticas de Privacidad</a></li>
-            <li><a href="views/terminos.php">Términos y Condiciones</a></li>
-            <li><a href="contacto.php">Contáctanos</a></li>
-          </ul>
-        </div>
-
-        <div class="newsletter">
-          <p class="title-footer" style="color: #fff;"> TRANSFORMETAL</p>
-
-          <div class="content" style="text-align:justify;">
-            <p>
-
-              Transformetal es una empresa líder en la industria metalmecánica con más de 27 años de experiencia,
-              comprometida con la innovación, calidad y excelencia. Transformamos materia prima metálica en productos
-              de alta precisión utilizando tecnología CNC y procesos avanzados, siempre adaptándonos a las necesidades
-              específicas de nuestros clientes. Nuestro enfoque personalizado y equipo altamente calificado nos permite
-              generar valor económico, social y ambiental en cada proyecto que emprendemos. Innovación y calidad en cada
-              detalle, somos su mejor elección en metalmecánica.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="copyright" style="color: #ffffff;">
-        <p>
-          Transformetal 2024
-        </p>
-
-        <img src="assets/img/icon.png" alt="" style="width: 50px; height: 50px;">
-      </div>
-    </div>
-  </footer>
+				.contact-icon.email::before {
+					content: "";
+					display: inline-block;
+					width: 40px;
+					height: 40px;
+					background-image: url('./assets/img/icon/footer/email.png');
+					background-size: cover;
+					margin-right: 5px;
+				}
+			</style>
+			<div class="footer-bottom">
+				<p>©Transformetal 2025. <a href=""  class="privacy-link">Todos los derechos reservados</a></p>
+				<a href="#" class="privacy-link">Política de privacidad</a>
+			</div>
+		</footer>
 
 
   <div id="loader">

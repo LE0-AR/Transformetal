@@ -25,6 +25,7 @@
   <!--Header FIN-->
 
   <!--Header Inicio-->
+  <!--Header Inicio-->|
   <header id="header">
 
     <div class="container-hero  position: fixed;">
@@ -38,8 +39,8 @@
         </div>
         <div class="container-logo">
           <a href="./">
-            <i><img src="assets/img/icon/logo.png" alt="100px" style="width: 70px; height: 70px; "></i>
-            <h1 class="logo"><a href="./" class="load-link">TRANSFORMETAL</a></h1>
+            <i><img src="assets/img/logotipo.png" alt="100px" style="width: 500px; height: 100px; "></i>
+
           </a>
         </div>
         <div class="container-user">
@@ -122,18 +123,12 @@
           <!--menu2-->
           <!--fin menu-->
           <li id="nav2">
-            <a href="#" id="industrias-link" class="TituloMenu">Industrias</a>
+            <a href="#" id="industrias-link" class="TituloMenu">Sectores</a>
             <ul class="nav-menu" id="industrias-submenu">
               <li><a href="industrias.php#telecom">Telecomunicaciones</a></li>
-              <li><a href="industrias.php#ele">Electricidad</a></li>
-              <li><a href="industrias.php#auto">Automatización</a></li>
-              <li><a href="industrias.php#urba">Urbanismo</a></li>
-              <li><a href="industrias.php#banca">Banca</a></li>
-              <li><a href="industrias.php#comercio">Comercio</a></li>
-              <li><a href="industrias.php#almace">Almacenamiento Industrial</a></li>
-              <li><a href="industrias.php#desarrollo">Desarrollo Inmobiliario</a></li>
-              <li><a href="industrias.php#aero">Aeroportuaria</a></li>
-              <li><a href="industrias.php#hospital">Hospitales</a></li>
+              <li><a href="industrias.php#Electrico">Electricidad</a></li>
+              <li><a href="industrias.php#Mobiliario">Mobiliario Urbano</a></li>
+              <li><a href="industrias.php#Exhibicion">Exhibición y Almacenaje </a></li>
             </ul>
           </li>
 
@@ -168,6 +163,7 @@
     </div>
     <!--menu fin -->
   </header>
+
 
   <div class="productos-main">
     <!--Inicio de secction Telco-->
@@ -1516,8 +1512,7 @@
                 <li><a href="#section25" onclick="showSection('section25'); event.preventDefault();" style="color: #d14013;">Sección de torre arriostradas</a></li>
                 <li></li>
                 <li><a href="#section26" onclick="showSection('section26'); event.preventDefault();">Accesorios para torres</a></li>
-                <li></li>
-                <li><a href="#section27" onclick="showSection('section27'); event.preventDefault();">Servicio de Instalacion de torres</a></li>
+               
               </ul>
             </div>
           </div>
@@ -1596,7 +1591,7 @@
                 <li></li>
                 <li><a href="#section26" onclick="showSection('section26'); event.preventDefault();" style="color: #d14013;">Accesorios para torres</a></li>
                 <li></li>
-                <li><a href="#section27" onclick="showSection('section27'); event.preventDefault();">Servicio de Instalacion de torres</a></li>
+               
               </ul>
             </div>
           </div>
@@ -1660,103 +1655,7 @@
     </section>
     <!--FIn de secction torres-->
 
-    <!--FIn de secction accesorios-->
-    <section id="section27" class="section" style="display: none;">
-      <div>
-        <div class="head">
-          <h1><span>Instalación de </span><br>torre <span> arriostrada</span></h1>
-        </div>
 
-
-        <!-- Sección de Salones Equipados -->
-        <section class="salones">
-          <div class="salones-text">
-            <h2>Estructuras Innovadoras y de Alta Resistencia</h2>
-            <p>
-              Instalación de torre arriostrada o atirantada en secciones de seis metros, triangulares, diseñadas bajo la norma ISO 9000,
-              estructura vertical que se utiliza para soportar cargas pesadas como antenas de comunicación, equipos de transmisión, sistemas
-              de iluminación y otros dispositivos, así como la conexión a sistema de tierras y protección atmosférica.
-
-            </p>
-
-          </div>
-          <div class="salones-image">
-            <img src="assets/img/servicio/torre/torre-img1.png" alt="Salones Equipados">
-          </div>
-        </section>
-
-        <!-- Sección de Colecciones -->
-        <section id="segunda">
-          <div class="salones-text " id="cuarta">
-            <h2>Eficiencia y Durabilidad en Soporte Estructural</h2>
-            <p>
-              Las torres arriostradas funcionan utilizando la tensión y compresión, con cables que se colocan en ángulos específicos
-              para distribuir las cargas de la estructura de manera más efectiva. Los ángulos se calculan para resistir la tensión
-              y compresión a la que está sujeta la torre. La torre se compone de una columna central que se eleva desde la base
-              hasta la parte superior.
-
-            </p>
-            <br>
-            <p>
-              Fundición de la base de cimentación y base de la torre, instalación de las secciones de torre, anclas expansivas para
-              suelo y de fijación para terraza, atirantado con cable de acero de ¼” y remate.
-            </p>
-          </div>
-
-        </section>
-
-        <!-- Sección Principal -->
-        <section class="capacitaciones">
-          <!-- Título principal -->
-          <div class="header-section">
-            <h1>Categorías de productos destacados</h1>
-          </div>
-          <div class="help-grid">
-            <a class="help-item">
-              <img src="assets/img/servicio/torre/Tensores.jpg" alt="Negocios">
-              <p>Tensores de 5/8”</p>
-            </a>
-            <a class="help-item">
-              <img src="assets/img/servicio/torre/Grilletes.jpg" alt="Negocios">
-              <p>Grillete de1/2"</p>
-            </a>
-            <a class="help-item">
-              <img src="assets/img/servicio/torre/Preformados.jpg" alt="Negocios">
-              <p>Preformados de 1/4</p>
-            </a>
-            <a class="help-item">
-              <img src="assets/img/servicio/torre/CableAcerado.jpg" alt="Negocios">
-              <p>Cable acerado de 1/4</p>
-            </a>
-            <a class="help-item">
-              <img src="assets/img/servicio/torre/Tornillos.jpg" alt="Negocios">
-              <p>Tornillo de 3/8 x 2 1/2</p>
-            </a>
-            <a class="help-item">
-              <img src="assets/img/servicio/torre/Guardacabos.jpg" alt="Negocios">
-              <p>Guardacabos</p>
-            </a>
-            <a class="help-item">
-              <img src="assets/img/servicio/torre/pararratos.jpg" alt="Negocios">
-              <p>Pararrayos punta Franklin</p>
-            </a>
-            <a class="help-item">
-              <img src="assets/img/servicio/torre/señalizacion.png" alt="Negocios">
-              <p>Señalización nocturna</p>
-            </a>
-
-
-
-          </div>
-
-        </section>
-
-
-
-
-      </div>
-    </section>
-    <!--Secciom de apartado de cada parrafo-->
 
 
     <!--Inicio de secction sistemas de tierras-->
@@ -1810,7 +1709,7 @@
         </div>
       </section>
     </section>
-  <!--Balizas Fin-->
+    <!--Balizas Fin-->
     <!--Fin de secction sistemas de tierras-->
 
     <!--Fin de secction platinas-->

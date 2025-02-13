@@ -7,9 +7,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>TRANSFORMETAL</title>
 		<link rel="stylesheet" href="assets/css/style.css">
-		<link rel="stylesheet" href="assets/css/videoIndex.css">
 		<link rel="stylesheet" href="assets/css/chatbot.css">
-		<link rel="stylesheet" href="assets/css/main.css">
+		<link rel="stylesheet" href="assets/css/footer.css">
 		<link rel="stylesheet" href="public/css/categoria.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 		<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
@@ -110,11 +109,11 @@
 								<li>
 									<a href="#" class="main-category">Torres <i class="fa-sharp fa-solid fa-arrow-right arrow-icon"></i></a>
 									<ul class="nav-submenu TorresIrios">
-										<li><a href="productos.php#section25">Torres Arriostradas y Accesorios</a></li>
-										<li><a href="productos.php#section14">Sistemas de puestas a tierra</a></li>
-										<li><a href="#">Balizas</a></li>
-										<li><a href="#">Interconexión a tierra </a></li>
-										<li><a href="#">Soportes y Herrajes</a></li>
+										<li><a href="./productos.php#section25">Torres Arriostradas y Accesorios</a></li>
+										<li><a href="./control/SistemaTierra.php">Sistemas de puestas a tierra</a></li>
+										<li><a href="./control/">Instalacion de torre arriostrada</a></li>
+										<li><a href="./control/pararrayos.php">Pararrayos </a></li>
+										
 									</ul>
 								</li>
 							</ul>
@@ -169,26 +168,32 @@
 		<!--CArrusel-->
 		<section>
 			<div class="slider">
-				<div class="myslide active" onclick="window.location.href='nosotros.php';" style="background-image: url('assets/img/banner/banner1.png');">
-
-				</div>
-				<div class="myslide active" onclick="window.location.href='model/Intelcos.php';" style="background-image: url('assets/img/banner/banner2.png');">
-
-				</div>
-
-				<div class="myslide active" onclick="window.location.href='model/Inelectrica.php';" style="background-image: url('assets/img/banner/banner3.png'); ">
-
-				</div>
-				<div class="myslide active" onclick="window.location.href='model/InExi.php';" style="background-image: url('assets/img/banner/banner4.png');">
-
-				</div>
-				<div class="myslide active" onclick="window.location.href='model/InMobiliaria.php';" style="background-image: url('assets/img/banner/banner5.png');">
-
+				<div class="myslide active" onclick="window.location.href='nosotros.php';">
+					<video autoplay loop muted playsinline>
+						<source src="assets/video/Torre.mp4" type="video/mp4">
+						Tu navegador no soporta videos.
+					</video>
 				</div>
 
-				<div class="myslide active" onclick="window.location.href='model/Intorre.php';" style="background-image: url('assets/img/anuncio/anuncio6.jpg');">
 
-				</div>
+			</div>
+			<div class="myslide active" onclick="window.location.href='model/Intelcos.php';" style="background-image: url('assets/img/banner/banner2.png');">
+
+			</div>
+
+			<div class="myslide active" onclick="window.location.href='model/Inelectrica.php';" style="background-image: url('assets/img/banner/banner3.png'); ">
+
+			</div>
+			<div class="myslide active" onclick="window.location.href='model/InExi.php';" style="background-image: url('assets/img/banner/banner4.png');">
+
+			</div>
+			<div class="myslide active" onclick="window.location.href='model/InMobiliaria.php';" style="background-image: url('assets/img/banner/banner5.png');">
+
+			</div>
+
+			<div class="myslide active" onclick="window.location.href='model/Intorre.php';" style="background-image: url('assets/img/anuncio/anuncio6.jpg');">
+
+			</div>
 
 			</div>
 
@@ -291,11 +296,11 @@
 
 		<!--Seccion del form Inicio--->
 		<section class="contact-container">
-			<div class="VideoTitulo">
-				<h2>Proceso de fabricación</h2>
+			<div class="titulcontacto">
+				<h2>Contáctenos Ahora</h2>
 			</div>
-			<form id="contact-form" class="contact-forms">
 
+			<form id="contact-form" class="contact-forms">
 				<div class="contact-input-group">
 					<label for="nombres">Nombres</label>
 					<input type="text" id="nombres" placeholder="Escriba un nombre">
@@ -314,23 +319,20 @@
 
 				<div class="contact-input-group contact-full-width">
 					<label for="proyecto">Cuéntenos un poco sobre su proyecto</label>
-					<textarea id="proyecto" placeholder="Escriba un correo electrónico"></textarea>
+					<textarea id="proyecto" placeholder="Escriba aquí..."></textarea>
 				</div>
 
 				<a href="#" class="VerProduct">
-					<p>Ver producto</p>
+					<p>Enviar</p>
 				</a>
 			</form>
-
-			<!--Seccion del videos FIn -->
 		</section>
-
 		<!--Seccion del form Fin-->
 		<!--chatbot Inicio-->
 		<!--chatbot de whatsapp-->
 		<div class="message-wrapper">
 			<div class="message-toggle">
-				<a href="https://api.whatsapp.com/send/?phone=50237673705&type=phone_number&app_absent=0" target="_blank">
+				<a href="https://api.whatsapp.com/send/?phone=50237673973&type=phone_number&app_absent=0" target="_blank">
 					<i class="fa-brands fa-whatsapp"></i>
 				</a>
 
@@ -476,7 +478,50 @@
 			<div class="spinner"></div>
 		</div>
 
+		<footer class="footer-container">
+			<div class="footer-content">
+				<div class="footer-logo">
+					<img src="./assets/img/Logo_Azul.png" alt="Transformetal Logo">
+				</div>
+				<p class="footer-description">
+					Transformetal es una empresa líder en metalmecánica, especializada en la transformación y
+					fabricación de productos metálicos de alta calidad.
+				</p>
+				<div class="footer-icons">
+					<a href="#" class="social-icon facebook" style=" background: url('./assets/img/icon/footer/fb.png') no-repeat center/cover;"></a>
+					<a href="#" class="social-icon whatsapp" style=" background: url('./assets/img/icon/footer/wsp.png') no-repeat center/cover;"></a>
+					<a href="#" class="social-icon instagram" style=" background: url('./assets/img/icon/footer/ig.png') no-repeat center/cover;"></a>
+					<a href="#" class="social-icon youtube" style=" background: url('./assets/img/icon/footer/yt.png') no-repeat center/cover;"></a>
+					<a href="tel:37673973" class="contact-icon phone">3767-3973 / 5695-2444</a>
+					<a href="mailto:contacto@transformetalgt.com" class="contact-icon email">contacto@transformetalgt.com</a>
+				</div>
+			</div>
+			<style>
+				.contact-icon.phone::before {
+					content: "";
+					display: inline-block;
+					width: 40px;
+					height: 40px;
+					background-image: url('./assets/img/icon/footer/cel.png');
+					background-size: cover;
+					margin-right: 5px;
+				}
 
+				.contact-icon.email::before {
+					content: "";
+					display: inline-block;
+					width: 40px;
+					height: 40px;
+					background-image: url('./assets/img/icon/footer/email.png');
+					background-size: cover;
+					margin-right: 5px;
+				}
+			</style>
+			<div class="footer-bottom">
+				<p>©Transformetal 2025. <a href="" class="privacy-link">Todos los derechos reservados</a></p>
+				<a href="#" class="privacy-link">Política de privacidad</a>
+			</div>
+		</footer>
 
 		<script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
 		<script src="assets/js/menu.js"></script>

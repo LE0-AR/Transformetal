@@ -117,7 +117,7 @@
             <li id="nav2">
               <a href="#" id="industrias-link" class="TituloMenu">Sectores</a>
               <ul class="nav-menu" id="industrias-submenu">
-                <li><a href="industrias.php#Telcos">Telecomunicaciones</a></li>
+                <li><a href="industrias.php#telecom">Telecomunicaciones</a></li>
                 <li><a href="industrias.php#Electrico">Electricidad</a></li>
                 <li><a href="industrias.php#Mobiliario">Mobiliario Urbano</a></li>
                 <li><a href="industrias.php#Exhibicion">Exhibición y Almacenaje </a></li>
@@ -165,7 +165,7 @@
           ofreciendo soluciones innovadoras, específicas y adaptadas para optimizar procesos,
           garantizar calidad y fomentar el crecimiento sostenible en todos los sectores donde
           puede intervenir la metalmecánica.
-        </p>  
+        </p>
         <section id="SectoresLinea"><img src="./assets/img/sectores/divisor.png" alt="" class="SectoresLinea"></section>
         <div class="sector" id="Telcos">
           <img src="./assets/img/sectores/sector/telecomunicaciones.jpg" alt="Torre de telecomunicaciones" class="imagen">
