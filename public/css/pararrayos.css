@@ -12,14 +12,14 @@
   
     left: 0;
     width: 100%;
-    height: 700px;
+    height: 900px;
     background-color: var(--Titulo);
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
     z-index: -1;
   }
   
   .SistemaTierra {
-  
+    
     display: flex;
     margin: 80px 150px;
     display: flex;
@@ -30,6 +30,7 @@
   
   .content {
     width: 52%;
+    margin-top: 150px;
   }
   
   .TituloSitema {
@@ -51,8 +52,7 @@
   }
   
   .images {
-    background-color: var(--ColorNegro);
-    width: 100%;
+    width: 35%; 
     margin-top: auto;
     display: flex;
     flex-direction: row;  /* Cambiado para alinear imágenes en fila */
@@ -64,7 +64,7 @@
   .images img {
     width: 100%; /* Ajustado para que ambas imágenes quepan en el espacio */
     border-radius: 5px;
-    height: 500px;
+    height: 700px;
   }
   .section {
     margin: 80px 150px;
@@ -86,6 +86,7 @@
     margin-bottom: 10px;
     margin: 25px 0;
     font-family: "Bebas Neue", serif;
+    text-transform: uppercase;
   }
   
   /* TEXTO */
@@ -94,7 +95,7 @@
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 10px;
-    width: 90%;
+    width: 80%;
     text-align: justify;
     font-family: "Libre Franklin", serif;
   }
@@ -305,3 +306,94 @@
     height: auto !important;
     margin-top: 30px;
   }
+
+
+  /*secciones de */
+  
+  .Tipos {    
+    margin: 80px 150px;
+    display: flex;
+    flex-wrap: nowrap; /* Asegura que los elementos se mantengan en una sola fila */
+    align-items: center;
+    justify-content: space-between;
+  
+}
+  .seccion-texto {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .titulo {
+    color: var(--Titulo);
+    font-size: 48px;
+    font-family: "Bebas Neue", serif;
+  }
+  
+  .contenidoPri {
+    flex-grow: 1; /* Hace que tome toda la altura disponible */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .caja {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    width: 750px;
+  }
+  
+  .subtitulo {
+    color: var(--Subtitulo);
+    font-size: 40px;
+    
+    font-family: "Bebas Neue", serif;
+    text-transform: uppercase;
+  }
+  
+  .descripcion {
+    color: var(--ColorNegro);
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    font-family: "Libre Franklin", serif;
+  }
+  
+  .seccion-imagen {
+    width: 35%;
+    height: 800px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .seccion-imagen img {
+    width: 100%;
+    min-height: 600px; /* Altura mínima de 500px */
+    object-fit: cover; /* Ajuste para cubrir el espacio */
+  }
+  
+  /* Ajustar el alto de contenidoPri al de seccion-imagen */
+  @media (min-width: 768px) {
+    .seccion-texto {
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .contenidoPri {
+        height: 100%;
+    }
+  
+    .seccion-imagen {
+        display: flex;
+        align-items: stretch;
+    }
+  
+    .seccion-imagen img {
+        height: 100%;
+        object-fit: cover;
+    }
+  }
+  

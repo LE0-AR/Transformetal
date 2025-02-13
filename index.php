@@ -72,6 +72,8 @@
 										<li><a href="productos.php#section3-1">Riel</a></li>
 										<li><a href="productos.php#section4-1">Escalerilla</a></li>
 										<li><a href="productos.php#section85">Planta Externa</a></li>
+										<li><a href="productos.php#section85">Planta Interna</a></li>
+										<li><a href=""></a></li>
 									</ul>
 								</li>
 								<li>
@@ -110,9 +112,9 @@
 									<a href="#" class="main-category">Torres <i class="fa-sharp fa-solid fa-arrow-right arrow-icon"></i></a>
 									<ul class="nav-submenu TorresIrios">
 										<li><a href="./productos.php#section25">Torres Arriostradas y Accesorios</a></li>
-										<li><a href="./control/SistemaTierra.php">Sistemas de puestas a tierra</a></li>
 										<li><a href="./control/">Instalacion de torre arriostrada</a></li>
-										<li><a href="./control/pararrayos.php">Pararrayos </a></li>
+										<li><a href="./control/SistemaTierra.php">Sistemas de puesta a tierra</a></li>
+										<li><a href="./control/pararrayos.php">Sistema de pararrayos y baliza </a></li>
 										
 									</ul>
 								</li>
@@ -169,9 +171,9 @@
 		<section>
 			<div class="slider">
 				<div class="myslide active" onclick="window.location.href='nosotros.php';">
-					<video autoplay loop muted playsinline>
-						<source src="assets/video/Torre.mp4" type="video/mp4">
-						Tu navegador no soporta videos.
+					<video   loop  muted playsinline>
+						<source src="./assets/video/Torre.mp4" type="video/mp4">
+						
 					</video>
 				</div>
 
@@ -288,7 +290,7 @@
 			<!-- Video incrustado de YouTube -->
 			<div class="video-container">
 				<iframe
-					src="https://www.youtube.com/embed/3P1MfIBrbR4?autoplay=1&rel=0&modestbranding=1&showinfo=0">
+					src="https://www.youtube.com/embed/Vteh3jiFwAw?si=YbH1wNQnSih9T2GP">
 				</iframe>
 			</div>
 		</section>

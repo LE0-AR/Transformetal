@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="../assets/css/style.css">
 		<link rel="stylesheet" href="../assets/css/chatbot.css">
 		<link rel="stylesheet" href="../assets/css/footer.css">
-		<link rel="stylesheet" href="../assets/css/sistemaTierra.css">
+		<link rel="stylesheet" href="../public/css/pararrayos.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 		<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 		<link rel="icon" type="image/png" href="../assets/img/isotipo.png">
@@ -114,7 +114,7 @@
 										<li><a href="../control/SistemaTierra.php">Sistemas de puestas a tierra</a></li>
 										<li><a href="../control/torre.php">Instalacion de torre arriostrada</a></li>
 										<li><a href="#">Pararrayos </a></li>
-										
+
 									</ul>
 								</li>
 							</ul>
@@ -321,94 +321,79 @@
 
 		<div class="SistemaTierra">
 			<div class="content">
-				<h1 class="TituloSitema">SISTEMA DE TIERRAS </h1>
+				<h1 class="TituloSitema">Pararrayos </h1>
 				<p class="paragraph">
-					La protección de un sistema de tierras debe fundamentarse en una correcta puesta a tierra, la cual cumple con la función de establecer conexiones equipotenciales y garantizar que, en un evento de falla a tierra, toda la corriente de corto circuito retorne a la fuente de una manera controlada, que la unión eléctrica con la tierra de una parte de un circuito eléctrico o de un Pararrayos se efectúa mediante el sistema de tierras.
-				</p>
-				<p class="paragraph">
-					El Sistema de Tierras debe enfocarse en la protección de las personas y los equipos, las descargas no se pueden controlar, pero el riesgo de su impacto puede minimizarse de manera que la instalación eléctrica sea segura.
+					El Pararrayos consiste en un sistema de protección externa contra el rayo, es importante que sea realizada por personal capacitado y bajo los criterios marcados por las normas, debe ser instalada en la parte superior de la torre con su respectivo mástil, cable de bajada acerado, platina de tierras que servirá para el aterrizaje del grounding kit del cable STP, será interconectado al sistema de tierras.
 				</p>
 				<p class="paragraph">
-					Está formada por un conjunto de electrodos u otros elementos enterrados, que tienen como misión forzar la derivación al terreno de las intensidades de cualquier naturaleza que se puedan originar en nuestra instalación, ya se trate de corrientes de defecto a frecuencia industrial (50Hz) o de descargas atmosféricas.
-				</p>
-			</div>
-			<div class="images">
-				<img src="../assets/img/SistemaTierra/img1.png" alt="Imagen 1">
-			</div>
-		</div>
-
-		<div class="section">
-
-			<div class="Torre">
-				<h2 class="title">ESTRUCTURAS INNOVADORAS</h2>
-				<p class="text">
-					Existen varios métodos para la construcción de sistemas de tierras, siendo el más utilizado el de conexión con varilla de cobre a tierra. Comúnmente se instalará enterrándola de manera vertical y profunda en el suelo.
-				</p>
-				<p class="text">
-					La conexión con varilla de cobre, constituye el método o técnica más utilizado de puesta a tierra debido a su fácil instalación. Su introducción en el terreno es por hincado.
-				</p>
-				<p class="text">
-					Estará formada por tres varillas de cobre de 5/8” x 2.4 m de largo, enterradas verticalmente, formando un triángulo equilátero. Estas se unirán mediante cable desnudo o cinta de cobre enterrados en una zanja de 60 a 80 cm. de profundidad y se conectarán a la red de tierras mediante puente de comprobación, dentro de una caja de registro, obteniendo la mayor reducción de la resistencia eléctrica.
-				</p>
-				<p class="text">
-					La instalación con varillas de cobre es preferida para redes eléctricas sin espacios grandes disponibles, la corriente eléctrica seguirá el camino de menor resistencia para desviar la corriente de defecto lejos de un circuito, el sistema está diseñado para reducir la resistencia de tierra, idealmente a 5 o menos ohm.
+					La información estadística conocida nos indica que de un modo permanente se forman cerca de 5,000 tormentas alrededor del globo terráqueo, con el consiguiente peligro para bienes y persona. La intensidad media mundial de la descarga de un rayo se estima en 20,000 amperios, pero se llegan a contabilizar rayos de hasta 200,000 amperios.
 				</p>
 				<div class="center">
-					<a href="https://api.whatsapp.com/send/?phone=50237673973&text=Hola%2C%20quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20torres&type=phone_number&app_absent=0" class="cotizas" target=’_blank’>
+					<a href="https://api.whatsapp.com/send/?phone=50237673973&text=Hola%2C%20quiero%20saber%20m%C3%A1s%20informaci%C3%B3n&type=phone_number&app_absent=0" class="cotizas" target="_blank">
 						<p>Cotizar</p>
-
 					</a>
 				</div>
-
 			</div>
-			<div class="image-container">
-				<img src="../assets/img/SistemaTierra/img4.png" alt="Imagen de torre" class="image">
+			<div class="images">
+				<img src="../assets/img/servicio/pararrayos/parrarallos1.png" alt="Imagen 1">
 			</div>
-
 		</div>
-		<div class="Cinta">
-			<h2>Materiales que utilizamos para la instalación</h2>
-		</div>
-		<div class="grid">
-			<div class="item">
-				<img src="../assets/img/SistemaTierra/1_varillas.png" alt="Tensor">
-				<p class="description">Varillas de cobre de 5/8 2.4" de largo</p>
-			</div>
-			<div class="item">
-				<img src="../assets/img/SistemaTierra/2_cable_c.png" alt="Grillete">
-				<p class="description">Cable de cobre de 1/0”</p>
-			</div>
-			<div class="item">
-				<img src="../assets/img/SistemaTierra/3_soldaduras.png" alt="Preformado">
-				<p class="description">soldaduras de cadweld exotérmicas</p>
-			</div>
-			<div class="item">
-				<img src="../assets/img/SistemaTierra/4_platina.png" alt="Cable Acerado">
-				<p class="description">Platina</p>
-			</div>
-			<div class="item">
-				<img src="../assets/img/SistemaTierra/5_caja.png" alt="Tornillo">
-				<p class="description">Caja de registro</p>
-			</div>
-			<div class="item">
-				<img src="../assets/img/SistemaTierra/6_cinta.png" alt="Guardacabos">
-				<p class="description">Cinta Bandit</p>
-			</div>
 
+		<div class="Tipos">
+			<div class="seccion-texto">
+				<h1 class="titulo">TIPOS DE PARARRAYOS</h1>
+				<div class="contenidoPri">
+					<div class="caja">
+						<h2 class="subtitulo">TENDIDO</h2>
+						<p class="descripcion">
+							Protección formada por uno o múltiples conductores aéreos situados sobre la estructura a proteger.
+							Los conductores se deberán unir a tierra mediante las bajantes en cada uno de sus extremos.
+							El área protegida vendrá dada por el área formada por el conjunto de conductores aéreos.
+						</p>
+					</div>
+
+					<div class="caja">
+						<h2 class="subtitulo">CON DISPOSITIVOS DE CEBADO</h2>
+						<p class="descripcion">
+							La ventaja es que emiten descargas eléctricas de polaridad inversa al rayo, consiguiendo atraerlo y elevar el punto de impacto
+							por encima de la estructura a proteger, por lo que crea mayor radio de cobertura en la base, frente a un pararrayos convencional.
+						</p>
+					</div>
+					<div class="caja">
+						<h2 class="subtitulo">punta Franklin</h2>
+						<p class="descripcion">
+							Su misión es provocar la excitación atmosférica por encima de cualquier otro punto de la estructura a proteger, para aumentar
+							la probabilidad de que la descarga incida en su zona de influencia y derivar a tierra
+							la corriente del rayo.
+						</p>
+					</div>
+					<div class="caja">
+						<h2 class="subtitulo">Jaula de faraday</h2>
+						<p class="descripcion">
+							El sistema en la recepción del rayo a través de un conjunto de puntas capturadas unidas entre sí por un cable conductor, formando una malla y derivándola a tierra
+							mediante una red de bajantes conductores.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="seccion-imagen">
+				<img src="../assets/img/servicio/pararrayos/parrarallos2.png" alt="Pararrayos">
+			</div>
 		</div>
+
 		<div class="section">
 			<div class="conte">
-				<h2 class="title">Interconexión a tierra</h2>
+				<h2 class="title">Baliza</h2>
 				<p class="text">
-					La interconexión del sistema de tierras consiste en la unificación de tierras físicas delta de torre
-					arriostrada a oficinas del cliente, interconectando por medio de un conductor de cobre AWG y aplicación de bentonita.
+					Baliza es un istema confiable y eficiente para la señalizacion de obstculos, diseñada para señalizar el
+					tráfico aéreo, en entonor tanto industriales como comerciales, ofrece una visibilidad destacada. 
 				</p>
 				<p class="text">
-					Se considera una distancia máxima de 15 metros entre la Delta y las oficinas. Para la unificación de tierras físicas
-					en necesario contar con: varillas de tierras, cable AWG 2/0, soldaduras exotérmicas, varillas de tierras de 5/8” x 8’, bentonita.
+					La baliza o señalizacion noctuna incluye el sumijstro e instalcion de a baliza o foco de obstruccion 
+					noctuna, con foco y base fotocelda con su respectivo base, flipon en tablero 110 VAC, cable AWG 2x14 YNM para interperie
 				</p>
 				<div class="center">
-					<a href="https://api.whatsapp.com/send/?phone=50237673973&text=Hola%2C%20quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20torres&type=phone_number&app_absent=0" class="cotizas" target=’_blank’>
+					<a href="https://api.whatsapp.com/send/?phone=50237673973&text=Hola%2C%20quiero%20saber%20m%C3%A1s%20informaci%C3%B3n&type=phone_number&app_absent=0"class="cotizas" target=’_blank’>
 						<p>Cotizar</p>
 
 					</a>
@@ -467,7 +452,7 @@
 			</div>
 		</footer>
 
-	
+
 		<script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
 		<script src="../assets/js/menu.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

@@ -232,7 +232,7 @@ background-color: #000000 !important;
   top: -1px;
   opacity: 0;
   width: 50%;
-  height: 258px;
+  height: auto;
   transition: opacity 0.3s ease, visibility 0.3s ease;
   border: 1px solid #ffffff;
 }
