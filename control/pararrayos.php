@@ -385,22 +385,22 @@
 			<div class="conte">
 				<h2 class="title">Baliza</h2>
 				<p class="text">
-					Baliza es un istema confiable y eficiente para la señalizacion de obstculos, diseñada para señalizar el
-					tráfico aéreo, en entonor tanto industriales como comerciales, ofrece una visibilidad destacada. 
+					Baliza es un Sistema confiable y eficiente para la señalizacion de obstculos, diseñada para señalizar el
+					tráfico aéreo, en entonor tanto industriales como comerciales, ofrece una visibilidad destacada.
 				</p>
 				<p class="text">
-					La baliza o señalizacion noctuna incluye el sumijstro e instalcion de a baliza o foco de obstruccion 
+					La baliza o señalizacion noctuna incluye el sumijstro e instalcion de a baliza o foco de obstruccion
 					noctuna, con foco y base fotocelda con su respectivo base, flipon en tablero 110 VAC, cable AWG 2x14 YNM para interperie
 				</p>
 				<div class="center">
-					<a href="https://api.whatsapp.com/send/?phone=50237673973&text=Hola%2C%20quiero%20saber%20m%C3%A1s%20informaci%C3%B3n&type=phone_number&app_absent=0"class="cotizas" target=’_blank’>
+					<a href="https://api.whatsapp.com/send/?phone=50237673973&text=Hola%2C%20quiero%20saber%20m%C3%A1s%20informaci%C3%B3n&type=phone_number&app_absent=0" class="cotizas" target=’_blank’>
 						<p>Cotizar</p>
 
 					</a>
 				</div>
 			</div>
 			<div class="image-contai">
-				<img src="../assets/img/SistemaTierra/img3.png" alt="Imagen de torre" class="imageT">
+				<img src="../assets/img/servicio/pararrayos/baliza.png" alt="Imagen de torre" class="imageT">
 			</div>
 		</div>
 

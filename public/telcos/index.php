@@ -6,13 +6,12 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>TRANSFORMETAL</title>
-		<link rel="stylesheet" href="assets/css/style.css">
-		<link rel="stylesheet" href="assets/css/chatbot.css">
-		<link rel="stylesheet" href="assets/css/footer.css">
-		<link rel="stylesheet" href="public/css/categoria.css">
+		<link rel="stylesheet" href="../../assets/css/style.css">
+		<link rel="stylesheet" href="../../assets/css/chatbot.css">
+		<link rel="stylesheet" href="../../assets/css/footer.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 		<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-		<link rel="icon" type="image/png" href="assets/img/isotipo.png">
+		<link rel="icon" type="image/png" href="../../assets/img/isotipo.png">
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 		<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,8 +38,8 @@
 						</div>
 					</div>
 					<div class="container-logo">
-						<a href="./">
-						<i><img src="assets/img/logot.png" alt="100px" style="width: 500px; height: 100px; "></i>
+						<a href="../../">
+						<i><img src="../../assets/img/logot.png" alt="100px" style="width: 500px; height: 100px; "></i>
 
 						</a>
 					</div>
@@ -140,8 +139,14 @@
 						</li>
 
 						<li>
-							<a href="./public/Nosotros/" id="nosotros-link" class="TituloMenu">Nosotros</a>
-							
+							<a href="#" id="nosotros-link" class="TituloMenu">Nosotros</a>
+							<ul class="nav-menu" id="nosotros-submenu">
+								<li><a href="./public/Nosotros/">Nosotros</a></li>
+								<li><a href="nosotros.php#staff">Equipo de gestión administrativa y comercial</a></li>
+								<li><a href="#">Planta de Transformetal</a></li>
+								<li><a href="#">Política de calidad</a></li>
+								<li><a href="#">Responsabilidad Social Empresarial</a></li>
+							</ul>
 						</li>
 						<li><a href="./contacto.php" class="TituloMenu">Contacto</a></li>
 						<label for="check" class="close-menu"><i class="fas fa-times"></i></label>
@@ -161,170 +166,8 @@
 			<!--menu fin -->
 		</header>
 
-		<!--CArrusel-->
-		<section>
-			<div class="slider">
-				<div class="myslide active" onclick="window.location.href='nosotros.php';">
-					<video   loop  muted playsinline>
-						<source src="./assets/video/Torre.mp4" type="video/mp4">
-						
-					</video>
-				</div>
-
-
-			</div>
-			<div class="myslide active" onclick="window.location.href='./public/telcos/';" style="background-image: url('assets/img/banner/banner2.png');">
-
-			</div>
-
-			<div class="myslide active" onclick="window.location.href='model/Inelectrica.php';" style="background-image: url('assets/img/banner/banner3.png'); ">
-
-			</div>
-			<div class="myslide active" onclick="window.location.href='model/InExi.php';" style="background-image: url('assets/img/banner/banner4.png');">
-
-			</div>
-			<div class="myslide active" onclick="window.location.href='model/InMobiliaria.php';" style="background-image: url('assets/img/banner/banner5.png');">
-
-			</div>
-
-			<div class="myslide active" onclick="window.location.href='model/Intorre.php';" style="background-image: url('assets/img/anuncio/anuncio6.jpg');">
-
-			</div>
-
-			</div>
-
-			<center>
-				<div class="dotsbox" id="dotsbox">
-					<span class="dot" onclick="currentSlide(1)"></span>
-					<span class="dot" onclick="currentSlide(2)"></span>
-					<span class="dot" onclick="currentSlide(3)"></span>
-					<span class="dot" onclick="currentSlide(4)"></span>
-					<span class="dot" onclick="currentSlide(5)"></span>
-					<span class="dot" onclick="currentSlide(6)"></span>
-				</div>
-			</center>
-		</section>
-
-		<!---Productos mas vendido Inicio-->
-		<section class="productos-mas-vendidos">
-			<div class="Cinta">
-				<h2>PRODUCTOS MÁS VENDIDOS</h2>
-			</div>
-			<div class="productos">
-				<div class="producto">
-					<img src="./assets/img/Section2Home/1-microdata.png"" alt=" Microdata Center">
-					<h3>MICRO DATA CENTER</h3>
-					<a href="#" class="VerProduct">
-						<p>Ver producto</p>
-					</a>
-				</div>
-				<div class="producto">
-					<img src="./assets/img/Section2Home/2-bandeja.png" alt="Bandeja Metálica" id="bandej">
-					<h3>BANDEJA METÁLICA</h3>
-					<a href="#" class="VerProduct">
-						<p>Ver producto</p>
-					</a>
-				</div>
-				<div class="producto">
-					<img src="./assets/img/Section2Home/3-rieles.png" alt="Rieles Metálicos">
-					<h3>RIELES METÁLICOS</h3>
-					<a href="#" class="VerProduct">
-						<p>Ver producto</p>
-					</a>
-				</div>
-				<div class="producto">
-					<img src="./assets/img/Section2Home/4-escalerilla.png" alt="Rieles Metálicos">
-					<h3>ESCALERILLAS</h3>
-					<a href="#" class="VerProduct">
-						<p>Ver producto</p>
-					</a>
-				</div>
-				<div class="producto">
-					<img src="./assets/img/Section2Home/5-caja.png" alt="Rieles Metálicos">
-					<h3>CAJAS METÁLICAS </h3>
-					<a href="#" class="VerProduct">
-						<p>Ver producto</p>
-					</a>
-				</div>
-				<div class="producto">
-					<img src="./assets/img/Section2Home/6-torres.png" alt="Rieles Metálicos">
-					<h3>TORRE ARRIOSTRADA</h3>
-					<a href="#" class="VerProduct">
-						<p>Ver producto</p>
-					</a>
-				</div>
-			</div>
-		</section>
-		<!--Producto mas vendido Fin-->
-
-
-		<!--Inico de Acerca-->
-		<section class="about-section">
-			<img src="./assets/img/banner/soldador2.png" alt="">
-			<div class="content">
-				<h1>ACERCA DE NOSOTROS</h1>
-				<p>
-					Somos una empresa cien por ciento guatemalteca, que fabrica y suministra productos de metalmecánica de alta calidad. Estamos integrados por un gran equipo especializado, que utiliza técnicas basadas en buenas prácticas aplicadas a nivel internacional que permiten precisión, calidad y cumplimiento. Además, contamos con maquinaria a la vanguardia y materia prima de alta calidad que garantiza la satisfacción del cliente.
-				</p>
-				<a href="#" class="VerProduct">
-					<p>Ver producto</p>
-				</a>
-			</div>
-
-		</section>
-		<!--acerca-->
-
-		<!--Seccion del videos Inicio-->
-		<section class="video-section">
-			<div class="ContenVideo">
-				<div class="VideoTitulo">
-					<h2>Proceso de fabricación</h2>
-				</div>
-			</div>
-			<!-- Video incrustado de YouTube -->
-			<div class="video-container">
-				<iframe
-					src="https://www.youtube.com/embed/Vteh3jiFwAw?si=YbH1wNQnSih9T2GP">
-				</iframe>
-			</div>
-		</section>
-		<!--Seccion del videos FIn -->
-
-		<!--Seccion del form Inicio--->
-		<section class="contact-container">
-			<div class="titulcontacto">
-				<h2>Contáctenos Ahora</h2>
-			</div>
-
-			<form id="contact-form" class="contact-forms">
-				<div class="contact-input-group">
-					<label for="nombres">Nombres</label>
-					<input type="text" id="nombres" placeholder="Escriba un nombre">
-
-					<label for="apellidos">Apellidos</label>
-					<input type="text" id="apellidos" placeholder="Escriba un apellido">
-				</div>
-
-				<div class="contact-input-group">
-					<label for="correo">Correo</label>
-					<input type="email" id="correo" placeholder="Escriba un correo electrónico">
-
-					<label for="telefono">Teléfono</label>
-					<input type="number" id="telefono" placeholder="Escriba un teléfono">
-				</div>
-
-				<div class="contact-input-group contact-full-width">
-					<label for="proyecto">Cuéntenos un poco sobre su proyecto</label>
-					<textarea id="proyecto" placeholder="Escriba aquí..."></textarea>
-				</div>
-
-				<a href="#" class="VerProduct">
-					<p>Enviar</p>
-				</a>
-			</form>
-		</section>
 		<!--Seccion del form Fin-->
-		<!--chatbot Inicio-->
+	<!--chatbot Inicio-->
 		<!--chatbot de whatsapp-->
 		<div class="message-wrapper">
 			<div class="message-toggle">
@@ -468,26 +311,27 @@
 		<!-- Chat Bot UI Ends -->
 		<!--Chat FIn-->
 
-		<!--Chatbot Fin-->
+	<!--Chatbot Fin-->
 
 		<div id="loader">
 			<div class="spinner"></div>
 		</div>
-
+		<div id="espacio"></div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		<footer class="footer-container">
 			<div class="footer-content">
 				<div class="footer-logo">
-					<img src="./assets/img/Logo_Azul.png" alt="Transformetal Logo">
+					<img src="../../assets/img/Logo_Azul.png" alt="Transformetal Logo">
 				</div>
 				<p class="footer-description">
 					Transformetal es una empresa líder en metalmecánica, especializada en la transformación y
 					fabricación de productos metálicos de alta calidad.
 				</p>
 				<div class="footer-icons">
-					<a href="#" class="social-icon facebook" style=" background: url('./assets/img/icon/footer/fb.png') no-repeat center/cover;"></a>
-					<a href="#" class="social-icon whatsapp" style=" background: url('./assets/img/icon/footer/wsp.png') no-repeat center/cover;"></a>
-					<a href="#" class="social-icon instagram" style=" background: url('./assets/img/icon/footer/ig.png') no-repeat center/cover;"></a>
-					<a href="#" class="social-icon youtube" style=" background: url('./assets/img/icon/footer/yt.png') no-repeat center/cover;"></a>
+					<a href="#" class="social-icon facebook" style=" background: url('../../assets/img/icon/footer/fb.png') no-repeat center/cover;"></a>
+					<a href="#" class="social-icon whatsapp" style=" background: url('../../assets/img/icon/footer/wsp.png') no-repeat center/cover;"></a>
+					<a href="#" class="social-icon instagram" style=" background: url('../../assets/img/icon/footer/ig.png') no-repeat center/cover;"></a>
+					<a href="#" class="social-icon youtube" style=" background: url('../../assets/img/icon/footer/yt.png') no-repeat center/cover;"></a>
 					<a href="tel:37673973" class="contact-icon phone">3767-3973 / 5695-2444</a>
 					<a href="mailto:contacto@transformetalgt.com" class="contact-icon email">contacto@transformetalgt.com</a>
 				</div>
@@ -498,7 +342,7 @@
 					display: inline-block;
 					width: 40px;
 					height: 40px;
-					background-image: url('./assets/img/icon/footer/cel.png');
+					background-image: url('../../assets/img/icon/footer/cel.png');
 					background-size: cover;
 					margin-right: 5px;
 				}
@@ -508,7 +352,7 @@
 					display: inline-block;
 					width: 40px;
 					height: 40px;
-					background-image: url('./assets/img/icon/footer/email.png');
+					background-image: url('../../assets/img/icon/footer/email.png');
 					background-size: cover;
 					margin-right: 5px;
 				}
@@ -520,16 +364,14 @@
 		</footer>
 
 		<script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
-		<script src="assets/js/menu.js"></script>
+		<script src="../../assets/js/menu.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-		<script src="assets/js/script.js"></script>
-		<script src="assets/js/popper.min.js"></script>
-		<script src="assets/js/jquery-3.2.1.js"></script>
-		<script src="assets/js/select2.min.js"></script>
+		<script src="../../assets/js/script.js"></script>
+		<script src="../../assets/js/popper.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-		<script src="assets/js/chat.js"></script>
-		<script src="assets/js/video.js"></script>
+		<script src="../../assets/js/chat.js"></script>
+
 
 	</body>
 

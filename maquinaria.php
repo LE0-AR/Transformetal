@@ -14,7 +14,7 @@
 	<link rel="stylesheet" href="assets/css/maquinas.css" />
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/chatbot.css">
-	<link rel="stylesheet" href="assets/css/content.css">k
+	<link rel="stylesheet" href="assets/css/content.css">
 	<title>TRANSFORMETAL</title>
 </head>
 
